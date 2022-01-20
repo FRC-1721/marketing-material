@@ -3,3 +3,9 @@
 *.stl
 *.pdf
 *.*~
+
+# Build dirs
+_build
+
+# Junk
+.vscode
