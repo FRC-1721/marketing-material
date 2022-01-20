@@ -5,27 +5,10 @@ on:
       - 'docs/**'
   release:
 
-jobs:
-  make_docs:
+jobs:  
+  make_style_guide:
     runs-on: ubuntu-latest
-    name: Doc Builder
-    steps:
-    - uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
-
-    - run: sudo apt install texlive-latex-recommended texlive-latex-extra texlive-pictures pandoc rename latexmk
-
-    - run: cd docs && make
-
-    - uses: actions/upload-artifact@v2
-      with:
-        name: Team_Gold_Docs
-        path: docs/_build/pdf/*.pdf
-  
-  make_instructions:
-    runs-on: ubuntu-latest
-    name: Instruction Builder
+    name: Style Guide Builder
     steps:
     - name: Setup Python
       uses: actions/setup-python@v1
@@ -37,6 +20,8 @@ jobs:
       with:
         fetch-depth: 0
 
+    - run: sudo apt update
+
     - run: sudo apt install texlive-latex-recommended texlive-latex-extra texlive-pictures pandoc rename latexmk
 
     - name: Install requirements
@@ -44,9 +29,9 @@ jobs:
 
     - run: cd docs && make latexpdf
 
-    - run: mv docs/_build/latex/climatemonitoringsystem.pdf docs/_build/latex/tidalforceuniformandstyleguide.pdf
+    - run: mv docs/_build/latex/tidalforceuniformandstyleguide.pdf docs/_build/latex/Tidal_Force_Uniform_and_Style_Guide.pdf
 
     - uses: actions/upload-artifact@v2
       with:
-        name: CMS_Instruction_Manual
-        path: docs/_build/latex/tidalforceuniformandstyleguide.pdf
+        name: Uniform_and_Style_Guide
+        path: docs/_build/latex/Tidal_Force_Uniform_and_Style_Guide.pdf
