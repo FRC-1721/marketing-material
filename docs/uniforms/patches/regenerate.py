@@ -27,14 +27,23 @@ for mask in maskPaths:
         data[..., :-1][mask_area.T] = (130, 12, 12)  # Convert all mask to red
         newimage = Image.fromarray(data)
         newimage.save(f"renders/{filename}_red.png")
+        if "chevron" in filename:
+            newimage = newimage.rotate(180)
+            newimage.save(f"renders/{filename}_red_rotated.png")
 
         data[..., :-1][mask_area.T] = (255, 215, 0)  # Convert all mask to gold
         newimage = Image.fromarray(data)
         newimage.save(f"renders/{filename}_gold.png")
+        if "chevron" in filename:
+            newimage = newimage.rotate(180)
+            newimage.save(f"renders/{filename}_gold_rotated.png")
 
         data[..., :-1][mask_area.T] = (255, 255, 255)  # Convert all mask to white
         newimage = Image.fromarray(data)
         newimage.save(f"renders/{filename}_white.png")
+        if "chevron" in filename:
+            newimage = newimage.rotate(180)
+            newimage.save(f"renders/{filename}_white_rotated.png")
 
     except UnidentifiedImageError:
         print("Not loading sourcefile or other file.")
