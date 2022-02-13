@@ -7,4 +7,7 @@ Welcome to Tidal Force Infrastructure's documentation!
 
    introduction/introduction
    uniforms/uniforms
+   uniforms/chevrons
    logos/logos
+   Merchandise/Merchandise
+   

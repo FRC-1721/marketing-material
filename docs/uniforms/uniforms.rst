@@ -1,6 +1,5 @@
 Uniforms
 ########
 
-Wear uniforms!
-
-They're cool.
+T-Shirts
+========
