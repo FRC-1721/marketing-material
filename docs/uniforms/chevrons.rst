@@ -11,51 +11,59 @@ The team chevrons come in three colours, Red, White, and
 Gold. Red denotes standard, a baseline colour which is
 used for the active student team members, and mentor
 chevrons. White denotes Alumnanship, used to reflect a
-Alumni's position or crediable actions on the team. 
-Finally, Gold denotes senoir leadership, Captain and Ast.
-Captain posistions. 
+Alumni's position or creditable actions on the team. 
+Finally, Gold denotes senior leadership, Captain and Ast.
+Captain positions. 
 
-Chevron Higharchry
-------------------
+Chevron Hierarchy
+-----------------
 
-The team chevrons, when in competition with eachother, 
-when two chevron designs impede eachother, white will
+The team chevrons, when in competition with each other, 
+when two chevron designs impede each other, white will
 always replace red* and gold will always replace white.
 
 In the case of Lead mentor retiring from their position,
-and they recive a white Lead mentors patch, and later
+and they receive a white Lead mentors patch, and later
 return to the position, Red will replace white as the
-position is reactivated. However no Team posistion patches
+position is reactivated. However no Team position patches
 in Alumnanship can be replaced by Red, as no Alumni can
 serve on those positions.*
 
 Patch Placement
 ---------------
 
-The team patches reflect drive team posistions, subteam 
-denotions for leads, Captain's posistion, and lead mentor
-posistion. Simlar to chevron colours, Red denotes active
-work for the patch, and white an Alumni of the posistion*.
-Gold denotes senoir leadership, and it used for Captain
+The team patches reflect drive team positions, subteam 
+denotations for leads, Captain's position, and lead mentor
+position. Similar to chevron colours, Red denotes active
+work for the patch, and white an Alumni of the position*.
+Gold denotes senior leadership, and it used for Captain
 and asst. captain.
 
 White patches are only given out to Alumni's who've worked
 in the position either as lead, or on drive team, or as a
-mentor which is worthy of their work being memoralized a
+mentor which is worthy of their work being memorialized a
 white patch.*
 
 Team Chevrons
 ============================
 
-Senoir Team Leadership Identifications
+Senior Team Leadership Identifications
 --------------------------------------
 
-Senoir team leadership, the Captain and Asst. Captain
+Senior team leadership, the Captain and Asst. Captain
 roles are following chevron designs:
 
-Picture of Captain chevron
+.. figure:: resources/placeholder.png
+   :height: 175
+   :alt: Picture of Captain chevron
 
-Picture of Asst. Captain chevron
+   Captain's Chevrons
+
+.. figure:: resources/placeholder.png
+   :height: 175
+   :alt: Picture of Asst. Captain's chevron
+
+   Asst. Captain's chevrons
 
 In retirement of the roles, the Captains C patch is handed
 handed down to the next captain* and so is the Asst. Capt patch.
@@ -64,9 +72,9 @@ for their Alumni chevrons, however the red chevron behind Asst.
 Capt bar must be changed to white.
 
 The Captain's C does not always need to be passed on if it's
-unpresentable condition. Inwhich the C patch should be 
-catalouged for all the captains who've worn it and put in archive.
-While a replacment is made
+unpresentable condition. In which the C patch should be 
+catalogued for all the captains who've worn it and put in archive.
+While a replacement is made
 
 
 Team Leads Identifications
