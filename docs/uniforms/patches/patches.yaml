@@ -19,19 +19,7 @@ joes_patch:
     - - Software
       - white
 
-another_patch:
-  chevrons:
-    # Top to bottom
-    - none
-    - red
-    - none
-    - none
-  patches:
-    # Max 2
-    - - Driver
-      - red
-
-captaain:
+captain:
   chevrons:
     # Top to bottom
     - red
@@ -41,4 +29,16 @@ captaain:
   patches:
     # Max 2
     - - Captain
+      - gold
+
+asst_captain:
+  chevrons:
+    # Top to bottom
+    - red
+    - gold
+    - red
+    - red
+  patches:
+    # Max 2
+    - - CoCaptain
       - gold

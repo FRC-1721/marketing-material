@@ -155,4 +155,4 @@ if __name__ == "__main__":
                 offset,
             )
 
-        liveryImage.save(f"{patchCollection}.png")
+        liveryImage.save(f"renders/{patchCollection}.png")
