@@ -39,7 +39,7 @@ def getPatch(patch, color, angle=0):
 def getColor(key):
 
     if key == "white":
-        return (255, 255, 255)
+        return (184, 184, 184)
     elif key == "red":
         return (130, 12, 12)
     elif key == "gold":
