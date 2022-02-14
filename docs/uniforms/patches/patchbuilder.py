@@ -74,49 +74,55 @@ if __name__ == "__main__":
 
             cursor = 112
 
-        if len(liveryData["patches"]) == 0:
-            # No subteam patches
-            logging.info("No patches to apply")
-        if len(liveryData["patches"]) == 1:
-            # One subteam patch
-            offset = (int(255 / 2), cursor)
+        try:
+            if len(liveryData["patches"]) == 0:
+                # No subteam patches
+                logging.info("No patches to apply")
+            if len(liveryData["patches"]) == 1:
+                # One subteam patch
+                offset = (int(255 / 2), cursor)
 
-            patchname = liveryData["patches"][0][0]
+                patchname = liveryData["patches"][0][0]
 
-            liveryImage.alpha_composite(
-                getPatch(
-                    f"masks/{patchname} Mask.png", getColor(liveryData["patches"][0][1])
-                ),
-                offset,
-            )
+                liveryImage.alpha_composite(
+                    getPatch(
+                        f"masks/{patchname} Mask.png",
+                        getColor(liveryData["patches"][0][1]),
+                    ),
+                    offset,
+                )
 
-            cursor = cursor + 150
-        if len(liveryData["patches"]) == 2:
-            # Two subteam patches
-            offset = (0, cursor + 90)
+                cursor = cursor + 150
+            if len(liveryData["patches"]) == 2:
+                # Two subteam patches
+                offset = (0, cursor + 90)
 
-            patchname = liveryData["patches"][0][0]
+                patchname = liveryData["patches"][0][0]
 
-            liveryImage.alpha_composite(
-                getPatch(
-                    f"masks/{patchname} Mask.png", getColor(liveryData["patches"][0][1])
-                ),
-                offset,
-            )
+                liveryImage.alpha_composite(
+                    getPatch(
+                        f"masks/{patchname} Mask.png",
+                        getColor(liveryData["patches"][0][1]),
+                    ),
+                    offset,
+                )
 
-            # New offset, new patch
-            offset = (255, cursor + 90)
+                # New offset, new patch
+                offset = (255, cursor + 90)
 
-            patchname = liveryData["patches"][1][0]
+                patchname = liveryData["patches"][1][0]
 
-            liveryImage.alpha_composite(
-                getPatch(
-                    f"masks/{patchname} Mask.png", getColor(liveryData["patches"][0][1])
-                ),
-                offset,
-            )
+                liveryImage.alpha_composite(
+                    getPatch(
+                        f"masks/{patchname} Mask.png",
+                        getColor(liveryData["patches"][0][1]),
+                    ),
+                    offset,
+                )
 
-            cursor = cursor + 320
+                cursor = cursor + 320
+        except KeyError:
+            pass
 
         # Bottom 3 chevrons
         if liveryData["chevrons"][1] != "none":
