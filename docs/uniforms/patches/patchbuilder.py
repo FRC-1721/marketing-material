@@ -124,6 +124,10 @@ if __name__ == "__main__":
         except KeyError:
             pass
 
+            # Special exception here, if no patches at all, do this extra check...
+            if liveryData["chevrons"][0] != "none":
+                cursor = cursor + 120
+
         # Bottom 3 chevrons
         if liveryData["chevrons"][1] != "none":
             offset = (0, cursor)
