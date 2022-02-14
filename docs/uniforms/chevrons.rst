@@ -9,7 +9,7 @@ How to Interpret Chevrons
 
 The team chevrons come in three colours, Red, White, and
 Gold. Red denotes standard, a baseline colour which is
-used for the active student team members, and mentor
+used for active student team members and mentor
 chevrons. White denotes Alumnanship, used to reflect a
 Alumni's position or creditable actions on the team. 
 Finally, Gold denotes senior leadership, Captain and Ast.
@@ -20,14 +20,14 @@ Chevron Hierarchy
 
 The team chevrons, when in competition with each other, 
 when two chevron designs impede each other, white will
-always replace red* and gold will always replace white.
+always replace red [1]_ and gold will always replace white.
 
 In the case of Lead mentor retiring from their position,
 and they receive a white Lead mentors patch, and later
 return to the position, Red will replace white as the
 position is reactivated. However no Team position patches
 in Alumnanship can be replaced by Red, as no Alumni can
-serve on those positions.*
+serve on those positions [2]_.
 
 Patch Placement
 ---------------
@@ -35,14 +35,14 @@ Patch Placement
 The team patches reflect drive team positions, subteam 
 denotations for leads, Captain's position, and lead mentor
 position. Similar to chevron colours, Red denotes active
-work for the patch, and white an Alumni of the position*.
+work for the patch, and white an Alumni of the position [3]_.
 Gold denotes senior leadership, and it used for Captain
 and asst. captain.
 
 White patches are only given out to Alumni's who've worked
 in the position either as lead, or on drive team, or as a
 mentor which is worthy of their work being memorialized a
-white patch.*
+white patch [4]_.
 
 Team Chevrons
 ============================
@@ -66,7 +66,7 @@ Captain's livery.
 Co-Captain's livery.
 
 In retirement of the roles, the Captains C patch is handed
-handed down to the next captain* and so is the Asst. Capt patch.
+handed down to the next captain [5]_ and so is the Asst. Capt patch.
 However the gold and half gold chevrons are kept by the members
 for their Alumni chevrons, however the red chevron behind Asst.
 Capt bar must be changed to white.
@@ -105,3 +105,12 @@ Alumni Chevrons Identifications
 
 Alumni Patches Identifications
 ------------------------------
+
+
+.. Footnotes
+
+.. [1] Except in cases where... 
+.. [2] Exception for replacements...
+.. [3] Exception for this...
+.. [4] Exception for that...
+.. [5] Exception for thing...
