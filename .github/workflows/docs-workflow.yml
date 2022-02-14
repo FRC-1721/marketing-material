@@ -20,13 +20,13 @@ jobs:
 
     - run: sudo apt install texlive-latex-recommended texlive-latex-extra texlive-pictures pandoc rename latexmk
 
-    - name: Install requirements
-      # For docs
+    - name: Install docs requirements
       run: pip install -r docs/requirements.txt
     
-    - name: Build patches
-      # For patches
+    - name: Setup patches requirements
       run: pip install -r docs/uniforms/patches/requirements.txt
+    
+    - name: Generate patches
       run: cd docs && make patches
 
     - name: Build latexpdf
