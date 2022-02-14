@@ -57,6 +57,9 @@ if __name__ == "__main__":
     for patchCollection in data.keys():
         liveryData = data[patchCollection]
 
+        # Where the next patch should be drawn
+        cursor = 0
+
         # The actual livery image!
         liveryImage = Image.new("RGBA", (510, 1020), color=(0, 0, 0, 0))
 
@@ -69,12 +72,14 @@ if __name__ == "__main__":
                 getPatch("masks/Chevron Mask.png", getColor(liveryData["chevrons"][0]))
             )
 
+            cursor = 112
+
         if len(liveryData["patches"]) == 0:
             # No subteam patches
             logging.info("No patches to apply")
         if len(liveryData["patches"]) == 1:
             # One subteam patch
-            offset = (int(255 / 2), int(255 / 2))
+            offset = (int(255 / 2), cursor)
 
             patchname = liveryData["patches"][0][0]
 
@@ -84,9 +89,11 @@ if __name__ == "__main__":
                 ),
                 offset,
             )
+
+            cursor = cursor + 150
         if len(liveryData["patches"]) == 2:
             # Two subteam patches
-            offset = (0, 200)
+            offset = (0, cursor + 90)
 
             patchname = liveryData["patches"][0][0]
 
@@ -98,7 +105,7 @@ if __name__ == "__main__":
             )
 
             # New offset, new patch
-            offset = (255, 200)
+            offset = (255, cursor + 90)
 
             patchname = liveryData["patches"][1][0]
 
@@ -109,14 +116,13 @@ if __name__ == "__main__":
                 offset,
             )
 
+            cursor = cursor + 320
+
         # Bottom 3 chevrons
         if liveryData["chevrons"][1] != "none":
             logging.info(f"Found first chevron on {patchCollection}")
 
-            if len(liveryData["patches"]) < 2:
-                offset = (0, 290)
-            else:
-                offset = (0, 435)
+            offset = (0, cursor)
 
             liveryImage.alpha_composite(
                 getPatch(
@@ -125,13 +131,12 @@ if __name__ == "__main__":
                 offset,
             )
 
+            cursor = cursor + 120
+
         if liveryData["chevrons"][2] != "none":
             logging.info(f"Found second chevron on {patchCollection}")
 
-            if len(liveryData["patches"]) < 2:
-                offset = (0, 290 + 120)
-            else:
-                offset = (0, 435 + 120)
+            offset = (0, cursor)
 
             liveryImage.alpha_composite(
                 getPatch(
@@ -140,13 +145,12 @@ if __name__ == "__main__":
                 offset,
             )
 
+            cursor = cursor + 120
+
         if liveryData["chevrons"][3] != "none":
             logging.info(f"Found third chevron on {patchCollection}")
 
-            if len(liveryData["patches"]) < 2:
-                offset = (0, 290 + 240)
-            else:
-                offset = (0, 435 + 240)
+            offset = (0, cursor)
 
             liveryImage.alpha_composite(
                 getPatch(
@@ -154,5 +158,9 @@ if __name__ == "__main__":
                 ),
                 offset,
             )
+
+            cursor = cursor + 120
+
+        liveryImage = liveryImage.crop((0, 0, 510, cursor + 120))
 
         liveryImage.save(f"renders/{patchCollection}.png")

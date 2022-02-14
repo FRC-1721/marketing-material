@@ -42,3 +42,15 @@ asst_captain:
     # Max 2
     - - CoCaptain
       - gold
+
+random:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - none
+    - none
+  patches:
+    # Max 2
+    - - Driver
+      - red
