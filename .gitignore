@@ -9,3 +9,5 @@ _build
 
 # Junk
 .vscode
+Pipfile
+Pipfile.lock

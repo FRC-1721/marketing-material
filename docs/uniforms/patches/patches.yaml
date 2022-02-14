@@ -1,0 +1,28 @@
+# FRC 1721
+
+# This is the input for patchbuilder.py
+# Each top level dict object should be one patch set
+# Nammed after its desired filename
+
+
+joes_patch:
+  chevrons:
+    # Top to bottom
+    - white
+    - white
+    - white
+    - red
+  patches:
+    # Max 2
+    - Driver
+
+another_patch:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - none
+    - none
+  patches:
+    # Max 2
+    - Driver
