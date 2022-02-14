@@ -54,3 +54,15 @@ driver:
     # Max 2
     - - Driver
       - red
+
+lead_mentor:
+  chevrons:
+    # Top to bottom
+    - white
+    - white
+    - white
+    - none
+  patches:
+    # Max 2
+    - - LeadMentor
+      - white
