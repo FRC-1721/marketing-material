@@ -43,7 +43,7 @@ asst_captain:
     - - CoCaptain
       - gold
 
-random:
+driver:
   chevrons:
     # Top to bottom
     - none
