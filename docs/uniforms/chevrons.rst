@@ -53,17 +53,17 @@ Senior Team Leadership Identifications
 Senior team leadership, the Captain and Asst. Captain
 roles are following chevron designs:
 
-.. figure:: patches/renders/captain.png
+.. image:: patches/renders/captain.png
    :height: 175
    :alt: Picture of Captain chevron
 
-   Captain's Chevrons
+Captain's livery.
 
-.. figure:: patches/renders/asst_captain.png
+.. image:: patches/renders/asst_captain.png
    :height: 175
    :alt: Picture of Asst. Captain's chevron
 
-   Asst. Captain's chevrons
+Co-Captain's livery.
 
 In retirement of the roles, the Captains C patch is handed
 handed down to the next captain* and so is the Asst. Capt patch.
