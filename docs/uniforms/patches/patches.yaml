@@ -14,7 +14,10 @@ joes_patch:
     - red
   patches:
     # Max 2
-    - Driver
+    - - Driver
+      - white
+    - - Software
+      - white
 
 another_patch:
   chevrons:
@@ -25,4 +28,17 @@ another_patch:
     - none
   patches:
     # Max 2
-    - Driver
+    - - Driver
+      - red
+
+captaain:
+  chevrons:
+    # Top to bottom
+    - red
+    - gold
+    - red
+    - red
+  patches:
+    # Max 2
+    - - Captain
+      - gold

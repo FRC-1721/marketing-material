@@ -1,7 +1,7 @@
 # FRC 1721
 # Script by Joe
 
-from email.mime import image
+
 import yaml
 import logging
 import numpy as np
@@ -36,8 +36,21 @@ def getPatch(patch, color, angle=0):
     return newimage
 
 
+def getColor(key):
+
+    if key == "white":
+        return (255, 255, 255)
+    elif key == "red":
+        return (130, 12, 12)
+    elif key == "gold":
+        return (255, 215, 0)
+    else:
+        logging.warning(f"Could not find color {key}")
+        return (0, 255, 0)
+
+
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.DEBUG)
+    logging.basicConfig(level=logging.INFO)
 
     data = loadData()
 
@@ -49,20 +62,97 @@ if __name__ == "__main__":
 
         # Place the top chevron if it exists
         if liveryData["chevrons"][0] != "none":
-            logging.info(f"Found top chevron on {patchCollection}")
+            logging.info(
+                f"Found top chevron on {patchCollection}, {liveryData['chevrons'][0]}"
+            )
             liveryImage.alpha_composite(
-                getPatch("masks/Chevron Mask.png", (130, 12, 12))
+                getPatch("masks/Chevron Mask.png", getColor(liveryData["chevrons"][0]))
             )
 
         if len(liveryData["patches"]) == 0:
+            # No subteam patches
             logging.info("No patches to apply")
         if len(liveryData["patches"]) == 1:
+            # One subteam patch
             offset = (int(255 / 2), int(255 / 2))
 
-            patchname = liveryData["patches"][0]
+            patchname = liveryData["patches"][0][0]
 
             liveryImage.alpha_composite(
-                getPatch(f"masks/{patchname} Mask.png", (130, 12, 12)), offset
+                getPatch(
+                    f"masks/{patchname} Mask.png", getColor(liveryData["patches"][0][1])
+                ),
+                offset,
+            )
+        if len(liveryData["patches"]) == 2:
+            # Two subteam patches
+            offset = (0, 200)
+
+            patchname = liveryData["patches"][0][0]
+
+            liveryImage.alpha_composite(
+                getPatch(
+                    f"masks/{patchname} Mask.png", getColor(liveryData["patches"][0][1])
+                ),
+                offset,
+            )
+
+            # New offset, new patch
+            offset = (255, 200)
+
+            patchname = liveryData["patches"][1][0]
+
+            liveryImage.alpha_composite(
+                getPatch(
+                    f"masks/{patchname} Mask.png", getColor(liveryData["patches"][0][1])
+                ),
+                offset,
+            )
+
+        # Bottom 3 chevrons
+        if liveryData["chevrons"][1] != "none":
+            logging.info(f"Found first chevron on {patchCollection}")
+
+            if len(liveryData["patches"]) < 2:
+                offset = (0, 290)
+            else:
+                offset = (0, 435)
+
+            liveryImage.alpha_composite(
+                getPatch(
+                    "masks/Chevron Mask.png", getColor(liveryData["chevrons"][1]), 180
+                ),
+                offset,
+            )
+
+        if liveryData["chevrons"][2] != "none":
+            logging.info(f"Found second chevron on {patchCollection}")
+
+            if len(liveryData["patches"]) < 2:
+                offset = (0, 290 + 120)
+            else:
+                offset = (0, 435 + 120)
+
+            liveryImage.alpha_composite(
+                getPatch(
+                    "masks/Chevron Mask.png", getColor(liveryData["chevrons"][2]), 180
+                ),
+                offset,
+            )
+
+        if liveryData["chevrons"][3] != "none":
+            logging.info(f"Found third chevron on {patchCollection}")
+
+            if len(liveryData["patches"]) < 2:
+                offset = (0, 290 + 240)
+            else:
+                offset = (0, 435 + 240)
+
+            liveryImage.alpha_composite(
+                getPatch(
+                    "masks/Chevron Mask.png", getColor(liveryData["chevrons"][3]), 180
+                ),
+                offset,
             )
 
         liveryImage.save(f"{patchCollection}.png")
