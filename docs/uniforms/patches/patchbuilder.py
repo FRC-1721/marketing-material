@@ -120,16 +120,41 @@ if __name__ == "__main__":
 
         # Bottom 3 chevrons
         if liveryData["chevrons"][1] != "none":
-            logging.info(f"Found first chevron on {patchCollection}")
-
             offset = (0, cursor)
 
-            liveryImage.alpha_composite(
-                getPatch(
-                    "masks/Chevron Mask.png", getColor(liveryData["chevrons"][1]), 180
-                ),
-                offset,
-            )
+            if isinstance(liveryData["chevrons"][1], list):
+                logging.info(f"Special half-chevron found on {patchCollection}")
+
+                # So messy, composite two images!
+                liveryImage.alpha_composite(
+                    getPatch(
+                        "masks/Chevron Mask.png",
+                        getColor(liveryData["chevrons"][1][1]),
+                        180,
+                    ),
+                    offset,
+                )
+
+                liveryImage.alpha_composite(
+                    getPatch(
+                        "masks/HalfChevron Mask.png",
+                        getColor(liveryData["chevrons"][1][0]),
+                        180,
+                    ),
+                    offset,
+                )
+
+            else:
+                logging.info(f"Found first chevron on {patchCollection}")
+
+                liveryImage.alpha_composite(
+                    getPatch(
+                        "masks/Chevron Mask.png",
+                        getColor(liveryData["chevrons"][1]),
+                        180,
+                    ),
+                    offset,
+                )
 
             cursor = cursor + 120
 
