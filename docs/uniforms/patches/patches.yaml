@@ -52,7 +52,7 @@ alum_captain:
     - white
     - white
 
-asst_captain:
+alum_asst_captain:
   chevrons:
     # Top to bottom
     - none
