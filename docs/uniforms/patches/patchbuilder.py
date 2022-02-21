@@ -43,7 +43,9 @@ def getColor(key):
     elif key == "red":
         return (130, 12, 12)
     elif key == "gold":
-        return (255, 215, 0)
+        return (204, 164, 61)
+    elif key == "yellow":
+        return (255, 255, 50)
     else:
         logging.warning(f"Could not find color {key}")
         return (0, 255, 0)

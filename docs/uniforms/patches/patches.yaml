@@ -11,7 +11,7 @@ joes_patch:
     - white
     - white
     - white
-    - red
+    - none
   patches:
     # Max 2
     - - Driver
@@ -44,6 +44,23 @@ asst_captain:
     - - CoCaptain
       - gold
 
+alum_captain:
+  chevrons:
+    # Top to bottom
+    - none
+    - gold
+    - white
+    - white
+
+asst_captain:
+  chevrons:
+    # Top to bottom
+    - none
+    - - gold
+      - white
+    - white
+    - white
+
 driver:
   chevrons:
     # Top to bottom
@@ -56,7 +73,79 @@ driver:
     - - Driver
       - red
 
+electrical_lead:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - red
+    - none
+  patches:
+    # Max 2
+    - - Electrical
+      - red
+
+saftey_captian:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - red
+    - none
+  patches:
+    # Max 2
+    - - Safety
+      - yellow
+
+pitcrew:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - none
+    - none
+
+operator:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - none
+    - none
+  patches:
+    # Max 2
+    - - Operator
+      - red
+
 lead_mentor:
+  chevrons:
+    # Top to bottom
+    - none
+    - white
+    - none
+    - none
+  patches:
+    # Max 2
+    - - LeadMentor
+      - red
+
+member_drivecoach:
+  chevrons:
+    # Top to bottom
+    - red
+    - red
+    - none
+    - none
+
+adult_drivecoach:
+  chevrons:
+    # Top to bottom
+    - white
+    - white
+    - none
+    - none
+
+alum_drivecoach:
   chevrons:
     # Top to bottom
     - white
@@ -65,5 +154,7 @@ lead_mentor:
     - none
   patches:
     # Max 2
-    - - LeadMentor
+    - - Mechanical
+      - white
+    - - Electrical
       - white
