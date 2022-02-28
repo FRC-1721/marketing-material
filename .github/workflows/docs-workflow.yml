@@ -25,12 +25,9 @@ jobs:
     
     - name: Setup patches requirements
       run: pip install -r docs/uniforms/patches/requirements.txt
-    
-    - name: Generate patches
-      run: cd docs && make patches
 
-    - name: Build latexpdf
-      run: cd docs && make latexpdf
+    - name: Build pdf
+      run: cd docs && make
 
     - run: mv docs/_build/latex/*.pdf docs/_build/latex/Tidal_Force_Uniform_and_Style_Guide.pdf
 

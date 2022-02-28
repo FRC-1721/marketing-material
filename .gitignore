@@ -6,6 +6,7 @@
 
 # Build dirs
 _build
+docs/uniforms/patches/renders
 
 # Junk
 .vscode
