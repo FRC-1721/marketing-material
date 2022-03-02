@@ -55,13 +55,13 @@ roles are following chevron designs:
 
 .. image:: patches/renders/captain.png
    :height: 175
-   :alt: Picture of Captain chevron
+   :alt: Picture of Captain livery
 
 Captain's livery.
 
 .. image:: patches/renders/asst_captain.png
    :height: 175
-   :alt: Picture of Asst. Captain's chevron
+   :alt: Picture of Asst. Captain's livery
 
 Co-Captain's livery.
 
@@ -85,6 +85,13 @@ Team Leads Identifications
 Subteam Chevrons Identifications
 --------------------------------
 
+.. image:: patches/renders/electrical_lead.png
+   :height: 175
+   :alt: Picture of Electrical Lead's livery
+
+Electrical Lead's livery.
+
+
 Team Patches Identifications
 ----------------------------
 
@@ -94,8 +101,40 @@ Mentor Chevrons
 Mentor Chevrons + Patches Identifications
 -----------------------------------------
 
+.. image:: patches/renders/lead_mentor.png
+   :height: 175
+   :alt: Picture of Lead mentor's livery
+
+Lead mentor's livery.
+
+.. image:: patches/renders/adult_drivecoach.png
+   :height: 175
+   :alt: Picture of adult drivecoach mentor's livery
+
+Mentor drive coach who was not an alumni [6]_.
+
 Alumni Mentors Chevrons
 -----------------------
+
+.. image:: patches/renders/alum_captain.png
+   :height: 175
+   :alt: Picture of Alumni Captain's livery
+
+Alumni Captain's livery.
+
+.. image:: patches/renders/alum_asst_captain.png
+   :height: 175
+   :alt: Picture of Alumni Assistant Captain's livery
+
+Alumni Assistant Captain's livery.
+
+.. image:: patches/renders/alum_drivecoach.png
+   :height: 175
+   :alt: Picture of Alumni drivecoach's livery
+
+Alumni drive coach who was lead of electrical and lead of mechanical
+during their time as a team member. (Likely not during the same years)
+
 
 ALUMNI Chevrons
 =====================================
@@ -114,3 +153,4 @@ Alumni Patches Identifications
 .. [3] Exception for this...
 .. [4] Exception for that...
 .. [5] Exception for thing...
+.. [6] This may be incorrect, do all mentors get a bottom white chevron?
