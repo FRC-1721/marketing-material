@@ -53,17 +53,17 @@ Senior Team Leadership Identifications
 Senior team leadership, the Captain and Asst. Captain
 roles are following chevron designs:
 
-.. image:: patches/renders/captain.png
-   :height: 175
+.. figure:: patches/renders/captain.png
+   :width: 125
    :alt: Picture of Captain livery
 
-Captain's livery.
+   Captain's livery.
 
-.. image:: patches/renders/asst_captain.png
-   :height: 175
+.. figure:: patches/renders/asst_captain.png
+   :width: 125
    :alt: Picture of Asst. Captain's livery
 
-Co-Captain's livery.
+   Co-Captain's livery.
 
 In retirement of the roles, the Captains C patch is handed
 handed down to the next captain [5]_ and so is the Asst. Capt patch.
@@ -85,11 +85,11 @@ Team Leads Identifications
 Subteam Chevrons Identifications
 --------------------------------
 
-.. image:: patches/renders/electrical_lead.png
-   :height: 175
+.. figure:: patches/renders/electrical_lead.png
+   :width: 125
    :alt: Picture of Electrical Lead's livery
 
-Electrical Lead's livery.
+   Electrical Lead's livery.
 
 
 Team Patches Identifications
@@ -101,39 +101,39 @@ Mentor Chevrons
 Mentor Chevrons + Patches Identifications
 -----------------------------------------
 
-.. image:: patches/renders/lead_mentor.png
-   :height: 175
+.. figure:: patches/renders/lead_mentor.png
+   :width: 125
    :alt: Picture of Lead mentor's livery
 
-Lead mentor's livery.
+   Lead mentor's livery.
 
-.. image:: patches/renders/adult_drivecoach.png
-   :height: 175
+.. figure:: patches/renders/adult_drivecoach.png
+   :width: 125
    :alt: Picture of adult drivecoach mentor's livery
 
-Mentor drive coach who was not an alumni [6]_.
+   Mentor drive coach who was not an alumni [6]_.
 
 Alumni Mentors Chevrons
 -----------------------
 
-.. image:: patches/renders/alum_captain.png
-   :height: 175
+.. figure:: patches/renders/alum_captain.png
+   :width: 125
    :alt: Picture of Alumni Captain's livery
 
-Alumni Captain's livery.
+   Alumni Captain's livery.
 
-.. image:: patches/renders/alum_asst_captain.png
-   :height: 175
+.. figure:: patches/renders/alum_asst_captain.png
+   :width: 125
    :alt: Picture of Alumni Assistant Captain's livery
 
-Alumni Assistant Captain's livery.
+   Alumni Assistant Captain's livery.
 
-.. image:: patches/renders/alum_drivecoach.png
-   :height: 175
+.. figure:: patches/renders/alum_drivecoach.png
+   :width: 125
    :alt: Picture of Alumni drivecoach's livery
 
-Alumni drive coach who was lead of electrical and lead of mechanical
-during their time as a team member. (Likely not during the same years)
+   Alumni drive coach who was lead of electrical and lead of mechanical
+   during their time as a team member. (Likely not during the same years)
 
 
 ALUMNI Chevrons
