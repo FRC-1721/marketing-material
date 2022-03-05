@@ -117,7 +117,7 @@ if __name__ == "__main__":
                 liveryImage.alpha_composite(
                     getPatch(
                         f"masks/{patchname} Mask.png",
-                        getColor(liveryData["patches"][0][1]),
+                        getColor(liveryData["patches"][1][1]),
                     ),
                     offset,
                 )
