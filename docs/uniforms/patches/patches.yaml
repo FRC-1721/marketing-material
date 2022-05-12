@@ -4,7 +4,6 @@
 # Each top level dict object should be one patch set
 # Nammed after its desired filename
 
-
 joes_patch:
   chevrons:
     # Top to bottom
@@ -61,6 +60,7 @@ alum_asst_captain:
     - white
     - white
 
+# Comp
 driver:
   chevrons:
     # Top to bottom
@@ -72,30 +72,6 @@ driver:
     # Max 2
     - - Driver
       - red
-
-electrical_lead:
-  chevrons:
-    # Top to bottom
-    - none
-    - red
-    - red
-    - none
-  patches:
-    # Max 2
-    - - Electrical
-      - red
-
-saftey_captian:
-  chevrons:
-    # Top to bottom
-    - none
-    - red
-    - red
-    - none
-  patches:
-    # Max 2
-    - - Safety
-      - yellow
 
 pitcrew:
   chevrons:
@@ -117,6 +93,7 @@ operator:
     - - Operator
       - red
 
+# Adults and mentors
 lead_mentor:
   chevrons:
     # Top to bottom
@@ -158,3 +135,121 @@ alum_drivecoach:
       - white
     - - Electrical
       - white
+
+# Leads
+electrical_lead:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - red
+    - none
+  patches:
+    # Max 2
+    - - Electrical
+      - red
+
+mechanical_lead:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - red
+    - none
+  patches:
+    # Max 2
+    - - Mechanical
+      - red
+
+software_lead:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - red
+    - none
+  patches:
+    # Max 2
+    - - Software
+      - red
+
+cad_lead:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - red
+    - none
+  patches:
+    # Max 2
+    - - CAD
+      - red
+
+scouting_lead:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - red
+    - none
+
+media_lead:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - red
+    - none
+  patches:
+    # Max 2
+    - - Media
+      - red
+
+business_lead:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - red
+    - none
+  patches:
+    # Max 2
+    - - Business
+      - red
+
+outreach:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - red
+    - none
+  patches:
+    # Max 2
+    - - Outreach
+      - red
+
+quartermaster:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - - red
+      - none
+    - none
+  patches:
+    # Max 2
+    - - Outreach
+      - red
+
+saftey_captian:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - red
+    - none
+  patches:
+    # Max 2
+    - - Safety
+      - yellow

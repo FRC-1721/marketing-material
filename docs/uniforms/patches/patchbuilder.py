@@ -51,6 +51,31 @@ def getColor(key):
         return (0, 255, 0)
 
 
+def composite_half_patch(lImage, lData, offset):
+    # So messy, composite two images!
+
+    if lData[1] != "none":
+        lImage.alpha_composite(
+            getPatch(
+                "masks/Chevron Mask.png",
+                getColor(lData[1]),
+                180,
+            ),
+            offset,
+        )
+
+    lImage.alpha_composite(
+        getPatch(
+            "masks/HalfChevron Mask.png",
+            getColor(lData[0]),
+            180,
+        ),
+        offset,
+    )
+
+    return lImage
+
+
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
 
@@ -137,23 +162,8 @@ if __name__ == "__main__":
             if isinstance(liveryData["chevrons"][1], list):
                 logging.info(f"Special half-chevron found on {patchCollection}")
 
-                # So messy, composite two images!
-                liveryImage.alpha_composite(
-                    getPatch(
-                        "masks/Chevron Mask.png",
-                        getColor(liveryData["chevrons"][1][1]),
-                        180,
-                    ),
-                    offset,
-                )
-
-                liveryImage.alpha_composite(
-                    getPatch(
-                        "masks/HalfChevron Mask.png",
-                        getColor(liveryData["chevrons"][1][0]),
-                        180,
-                    ),
-                    offset,
+                liveryImage = composite_half_patch(
+                    liveryImage, liveryData["chevrons"][1], offset
                 )
 
             else:
@@ -172,15 +182,25 @@ if __name__ == "__main__":
 
         if liveryData["chevrons"][2] != "none":
             logging.info(f"Found second chevron on {patchCollection}")
-
             offset = (0, cursor)
 
-            liveryImage.alpha_composite(
-                getPatch(
-                    "masks/Chevron Mask.png", getColor(liveryData["chevrons"][2]), 180
-                ),
-                offset,
-            )
+            if isinstance(liveryData["chevrons"][2], list):
+                logging.info(f"Special half-chevron found on {patchCollection}")
+
+                liveryImage = composite_half_patch(
+                    liveryImage, liveryData["chevrons"][2], offset
+                )
+
+            else:
+
+                liveryImage.alpha_composite(
+                    getPatch(
+                        "masks/Chevron Mask.png",
+                        getColor(liveryData["chevrons"][2]),
+                        180,
+                    ),
+                    offset,
+                )
 
             cursor = cursor + 120
 
