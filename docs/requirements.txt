@@ -3,8 +3,7 @@ sphinx
 sphinx_rtd_theme
 readthedocs-sphinx-search
 
-# Other build
-GitPython
-
 # Patches
 Pillow
+pyyaml
+numpy
