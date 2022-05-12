@@ -3,3 +3,12 @@
 *.stl
 *.pdf
 *.*~
+
+# Build dirs
+_build
+docs/uniforms/patches/renders
+
+# Junk
+.vscode
+Pipfile
+Pipfile.lock

@@ -1,0 +1,259 @@
+# FRC 1721
+
+# This is the input for patchbuilder.py
+# Each top level dict object should be one patch set
+# Nammed after its desired filename
+
+joes_patch:
+  chevrons:
+    # Top to bottom
+    - white
+    - white
+    - white
+    - none
+  patches:
+    # Max 2
+    - - Driver
+      - white
+    - - Software
+      - white
+
+captain:
+  chevrons:
+    # Top to bottom
+    - red
+    - gold
+    - red
+    - red
+  patches:
+    # Max 2
+    - - Captain
+      - gold
+
+asst_captain:
+  chevrons:
+    # Top to bottom
+    - red
+    - - gold
+      - red
+    - red
+    - red
+  patches:
+    # Max 2
+    - - CoCaptain
+      - gold
+
+alum_captain:
+  chevrons:
+    # Top to bottom
+    - none
+    - gold
+    - white
+    - white
+
+alum_asst_captain:
+  chevrons:
+    # Top to bottom
+    - none
+    - - gold
+      - white
+    - white
+    - white
+
+# Comp
+driver:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - none
+    - none
+  patches:
+    # Max 2
+    - - Driver
+      - red
+
+pitcrew:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - none
+    - none
+
+operator:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - none
+    - none
+  patches:
+    # Max 2
+    - - Operator
+      - red
+
+# Adults and mentors
+lead_mentor:
+  chevrons:
+    # Top to bottom
+    - none
+    - white
+    - none
+    - none
+  patches:
+    # Max 2
+    - - LeadMentor
+      - red
+
+member_drivecoach:
+  chevrons:
+    # Top to bottom
+    - red
+    - red
+    - none
+    - none
+
+adult_drivecoach:
+  chevrons:
+    # Top to bottom
+    - white
+    - white
+    - none
+    - none
+
+alum_drivecoach:
+  chevrons:
+    # Top to bottom
+    - white
+    - white
+    - white
+    - none
+  patches:
+    # Max 2
+    - - Mechanical
+      - white
+    - - Electrical
+      - white
+
+# Leads
+electrical_lead:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - red
+    - none
+  patches:
+    # Max 2
+    - - Electrical
+      - red
+
+mechanical_lead:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - red
+    - none
+  patches:
+    # Max 2
+    - - Mechanical
+      - red
+
+software_lead:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - red
+    - none
+  patches:
+    # Max 2
+    - - Software
+      - red
+
+cad_lead:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - red
+    - none
+  patches:
+    # Max 2
+    - - CAD
+      - red
+
+scouting_lead:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - red
+    - none
+  patches:
+    # Max 2
+    - - Scouting
+      - red
+
+media_lead:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - red
+    - none
+  patches:
+    # Max 2
+    - - Media
+      - red
+
+business_lead:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - red
+    - none
+  patches:
+    # Max 2
+    - - Business
+      - red
+
+outreach:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - red
+    - none
+  patches:
+    # Max 2
+    - - Outreach
+      - red
+
+quartermaster:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - - red
+      - none
+    - none
+  patches:
+    # Max 2
+    - - Quartermaster
+      - red
+
+saftey_captian:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - red
+    - none
+  patches:
+    # Max 2
+    - - Safety
+      - yellow
