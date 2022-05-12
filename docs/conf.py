@@ -1,20 +1,27 @@
-import git
+import subprocess
+
+# Revision/git information
+release = (
+    subprocess.check_output(
+        [
+            "git",
+            "describe",
+            "--abbrev=4",
+            "--always",
+            "--tags",
+        ]
+    )
+    .strip()
+    .decode("utf-8")
+)
+
 
 # Project Information
-
 project = "Tidal Force Uniform and Style Guide"
 copyright = "2021-2022, To Be Announced"
 author = "Tidal Force, FRC Team 1721"
 
-
-# The full version, including alpha/beta/rc tags
-
-repo = git.Repo(search_parent_directories=True)
-release = str(repo.git.describe("--tags"))
-
-
 # General Config
-
 extensions = ["sphinx.ext.autosectionlabel"]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -27,7 +34,6 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 
 # HTML output options
-
 html_theme = "sphinx_rtd_theme"
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -37,7 +43,6 @@ html_theme = "sphinx_rtd_theme"
 
 
 # PDF output options
-
 latex_elements = {"extraclassoptions": "openany,oneside"}
 
 latex_logo = "resources/banner.png"

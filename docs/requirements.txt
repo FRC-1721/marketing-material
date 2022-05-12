@@ -5,3 +5,6 @@ readthedocs-sphinx-search
 
 # Other build
 GitPython
+
+# Patches
+Pillow
