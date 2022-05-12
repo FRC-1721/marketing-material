@@ -140,7 +140,7 @@ member_drivecoach:
 adult_drivecoach:
   chevrons:
     # Top to bottom
-    - white
+    - red
     - white
     - none
     - none
@@ -148,7 +148,7 @@ adult_drivecoach:
 alum_drivecoach:
   chevrons:
     # Top to bottom
-    - white
+    - red
     - white
     - white
     - none
