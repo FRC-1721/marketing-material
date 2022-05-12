@@ -12,7 +12,7 @@ build:
       python: "3.10"
    jobs:
       post_install:
-         - cd docs && make patches
+         - cd docs && mkdir -p uniforms/patches/renders && cd uniforms/patches && /home/docs/checkouts/readthedocs.org/user_builds/tidal-force-uniform-and-style-guide/envs/style_guide/bin/python patchbuilder.py
 
 # Build documentation in the docs/ directory with Sphinx
 sphinx:
