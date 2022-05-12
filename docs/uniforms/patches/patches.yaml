@@ -59,6 +59,18 @@ driver:
     - - Driver
       - red
 
+technician:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - none
+    - none
+  patches:
+    # Max 2
+    - - Technician
+      - red
+
 humanplayer:
   chevrons:
     # Top to bottom
@@ -76,12 +88,21 @@ pitcrew:
     # Top to bottom
     - none
     - red
-    - none
+    - - red
+      - none
     - none
   patches:
     # Max 2
     - - Pitcrew
       - red
+
+pitcrew_member:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - none
+    - none
 
 operator:
   chevrons:
@@ -310,4 +331,4 @@ saftey_captian:
   patches:
     # Max 2
     - - Safety
-      - gold
+      - red

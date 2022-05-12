@@ -117,7 +117,7 @@ Other Roles
    :alt: Lead of Outreach's livery
 
    The Lead of Outreach maintains connections with outreach partners such as local FLL teams, local events (like
-   market days) and other 'outreach events'. They are the glue that ties the financial, online and resource (Buisness, 
+   market days) and other 'outreach events'. They are the glue that ties the financial, online and resource (Business, 
    Media and Quartermaster) together.
 
 .. figure:: patches/renders/quartermaster.png
@@ -134,7 +134,8 @@ Other Roles
 
    The Business Lead is responsible for all things financial, especially securing grants and funding, organizing
    sponsorship packets, maintaining sponsor relationships, and assisting in ordering and spending.
-   They frequently work alongside the Lead of Outreach but wield a similar position.
+   They frequently work alongside the Lead of Outreach but wield a similar position. This role is often staffed by
+   the Captain but not always.
 
 .. figure:: patches/renders/media_lead.png
    :width: 125
@@ -142,7 +143,8 @@ Other Roles
 
    The Lead of Media maintains the media presence of the team, they maintain our active social media services as well
    as moderate team online spaces such as the website, discord, the email chain, etc. They work heavily with the Lead 
-   of outreach.
+   of outreach. They are also responsible for managing the production and distribution of the Reveal Video and other
+   video media.
 
 
 Competition Roles
@@ -153,15 +155,23 @@ Competition Roles
    :alt: Lead of Scouting's livery
 
    Scouting is an activity common in first where team members record and judge the performance of other teams
-   in an effort to find and secure strong teams for possible alliance section, the lead of scouting co-ordinates
+   in an effort to find and secure strong teams for possible alliance section, the Lead of Scouting co-ordinates
    these actions among their ad-hoc team of Scouters.
 
 .. figure:: patches/renders/pitcrew.png
    :width: 125
    :alt: Pitcrew's livery
 
-   Each member of pitcrew bears this patch, signifying their role in the pits (witch has a limited space) they are 
-   often (but not always) the most experienced mechanical, software/electrical members.
+   The Pitcrew Chief bears this livery, the Pitcrew Chief is often the Lead of Mechanical but not always, they
+   are responsible for all things in the pitcrew including selecting pitcrew members and maintaining an efficient
+   working environment in the pits.
+
+.. figure:: patches/renders/pitcrew_member.png
+   :width: 125
+   :alt: Pitcrew Member's livery
+
+   Pitcrew members are selected by the pitcrew chief, they bear at least this single red bar and during competition 
+   are expected to be in the pits carrying out repairs, upgrades and work.
 
 .. figure:: patches/renders/driver.png
    :width: 125
@@ -185,6 +195,15 @@ Competition Roles
 
    The Human Player is a very volatile position, it changes wildly from year to year, in 2017 the human player was *inside* the
    field playing area. This is generally an athletic and/or wildly enthusiastic team member!
+
+.. figure:: patches/renders/technician.png
+   :width: 125
+   :alt: Human Player's livery
+
+   The Technician is a student with exceptional 'all-round skills', they fill the final role on the drive team and assist with
+   all of the technical aspects of the robot, from mechanical, to software, to electrical, they should have a good knowledge of 
+   all the major subsystems and how to service them quickly before and after the match. They should be briefed individually by 
+   each of the major technical leads.
 
 .. figure:: patches/renders/adult_drivecoach.png
    :width: 125
