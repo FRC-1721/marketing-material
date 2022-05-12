@@ -21,9 +21,9 @@ positions by *FIRST* and our own core views.
    :alt: Team Assistant-Captain's livery
 
    The Assistant-Captain is the second highest position on the team, it is not 
-   necessarily filled every year. The co-captain directly leads the team
+   necessarily filled every year. The Assistant Captain directly leads the team
    along with the Captain, and serves in their absence with all the command associated.
-   The assistant captain is always a student.
+   The Assistant captain is always a student.
 
 .. figure:: patches/renders/saftey_captian.png
    :width: 125
@@ -186,7 +186,7 @@ Competition Roles
    The Human Player is a very volatile position, it changes wildly from year to year, in 2017 the human player was *inside* the
    field playing area. This is generally an athletic and/or wildly enthusiastic team member!
 
-.. figure:: patches/renders/alum_drivecoach.png
+.. figure:: patches/renders/adult_drivecoach.png
    :width: 125
    :alt: Drivecoach's livery
 
