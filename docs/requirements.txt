@@ -4,6 +4,6 @@ sphinx_rtd_theme
 readthedocs-sphinx-search
 
 # Patches
-Pillow
-pyyaml
-numpy
+Pillow==9.0.1
+PyYAML==6.0
+numpy==1.22.2
