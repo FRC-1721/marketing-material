@@ -4,20 +4,6 @@
 # Each top level dict object should be one patch set
 # Nammed after its desired filename
 
-joes_patch:
-  chevrons:
-    # Top to bottom
-    - white
-    - white
-    - white
-    - none
-  patches:
-    # Max 2
-    - - Driver
-      - white
-    - - Software
-      - white
-
 captain:
   chevrons:
     # Top to bottom
@@ -155,6 +141,19 @@ mechanical_lead:
     - none
     - red
     - red
+    - none
+  patches:
+    # Max 2
+    - - Mechanical
+      - red
+
+mechanical_asst:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - - red
+      - none
     - none
   patches:
     # Max 2
