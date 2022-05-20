@@ -1,5 +1,7 @@
 import subprocess
 
+import sphinx_theme
+
 # Revision/git information
 release = (
     subprocess.check_output(
@@ -34,7 +36,8 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 
 # HTML output options
-html_theme = "sphinx_rtd_theme"
+html_theme = "stanford_theme"
+html_theme_path = [sphinx_theme.get_html_theme_path("stanford-theme")]
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

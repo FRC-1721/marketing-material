@@ -1,6 +1,6 @@
 # Sphinx
 sphinx
-sphinx_rtd_theme
+sphinx-theme
 readthedocs-sphinx-search
 
 # Patches
