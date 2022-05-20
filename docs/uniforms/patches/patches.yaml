@@ -4,20 +4,6 @@
 # Each top level dict object should be one patch set
 # Nammed after its desired filename
 
-joes_patch:
-  chevrons:
-    # Top to bottom
-    - white
-    - white
-    - white
-    - none
-  patches:
-    # Max 2
-    - - Driver
-      - white
-    - - Software
-      - white
-
 captain:
   chevrons:
     # Top to bottom
@@ -73,7 +59,44 @@ driver:
     - - Driver
       - red
 
+technician:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - none
+    - none
+  patches:
+    # Max 2
+    - - Technician
+      - red
+
+humanplayer:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - none
+    - none
+  patches:
+    # Max 2
+    - - HumanPlayer
+      - red
+
 pitcrew:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - - red
+      - none
+    - none
+  patches:
+    # Max 2
+    - - Pitcrew
+      - red
+
+pitcrew_member:
   chevrons:
     # Top to bottom
     - none
@@ -117,7 +140,7 @@ member_drivecoach:
 adult_drivecoach:
   chevrons:
     # Top to bottom
-    - white
+    - red
     - white
     - none
     - none
@@ -125,7 +148,7 @@ adult_drivecoach:
 alum_drivecoach:
   chevrons:
     # Top to bottom
-    - white
+    - red
     - white
     - white
     - none
@@ -149,12 +172,38 @@ electrical_lead:
     - - Electrical
       - red
 
+electrical_asst:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - - red
+      - none
+    - none
+  patches:
+    # Max 2
+    - - Electrical
+      - red
+
 mechanical_lead:
   chevrons:
     # Top to bottom
     - none
     - red
     - red
+    - none
+  patches:
+    # Max 2
+    - - Mechanical
+      - red
+
+mechanical_asst:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - - red
+      - none
     - none
   patches:
     # Max 2
@@ -173,12 +222,38 @@ software_lead:
     - - Software
       - red
 
+software_asst:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - - red
+      - none
+    - none
+  patches:
+    # Max 2
+    - - Software
+      - red
+
 cad_lead:
   chevrons:
     # Top to bottom
     - none
     - red
     - red
+    - none
+  patches:
+    # Max 2
+    - - CAD
+      - red
+
+cad_asst:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - - red
+      - none
     - none
   patches:
     # Max 2
@@ -256,4 +331,4 @@ saftey_captian:
   patches:
     # Max 2
     - - Safety
-      - yellow
+      - gold
