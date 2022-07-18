@@ -4,11 +4,11 @@ Chevrons
 Chevrons 101
 ============
 
-How to Interpret Chevrons
+Chevron Colors
 -------------------------
 
-The team chevrons come in three colours, Red, White, and
-Gold. Red denotes standard, a baseline colour which is
+The team chevrons come in three colors, Red, White, and
+Gold. Red denotes standard, a baseline color which is
 used for active student team members and mentor
 chevrons. White denotes Alumnanship, used to reflect a
 Alumni's position or creditable actions on the team. 
@@ -18,16 +18,21 @@ Captain positions.
 Chevron Hierarchy
 -----------------
 
-The team chevrons, when in competition with each other, 
-when two chevron designs impede each other, white will
-always replace red [1]_ and gold will always replace white.
+Chevrons do not stack, they overlap, This means if you fill
+multiple roles, chevrons will overlap in a set hierarchy, and
+it is as follows:
 
-In the case of Lead mentor retiring from their position,
-and they receive a white Lead mentors patch, and later
-return to the position, Red will replace white as the
-position is reactivated. However no Team position patches
-in Alumnanship can be replaced by Red, as no Alumni can
-serve on those positions [2]_.
+A full red bar will replace a half red bar.
+A gold bar will replace a red bar
+White bars are placed last.
+
+For example, if you had the following two roles:
+
++--------------+----------+-----------------------+
+| Mechanical   | Driver   | Mechanical And Driver |
++--------------+----------+-----------------------+
+| |mechanical| | |driver| | |mechanical_driver|   |
++--------------+----------+-----------------------+
 
 Patch Placement
 ---------------
@@ -44,62 +49,9 @@ in the position either as lead, or on drive team, or as a
 mentor which is worthy of their work being memorialized a
 white patch [4]_.
 
-Team Chevrons
-============================
 
-Senior Team Leadership Identifications
---------------------------------------
-
-Senior team leadership, the Captain and Asst. Captain
-roles are following chevron designs:
-
-.. figure:: patches/renders/captain.png
-   :width: 125
-   :alt: Picture of Captain livery
-
-   Captain's livery.
-
-.. figure:: patches/renders/asst_captain.png
-   :width: 125
-   :alt: Picture of Asst. Captain's livery
-
-   Co-Captain's livery.
-
-In retirement of the roles, the Captains C patch is handed
-handed down to the next captain [5]_ and so is the Asst. Capt patch.
-However the gold and half gold chevrons are kept by the members
-for their Alumni chevrons, however the red chevron behind Asst.
-Capt bar must be changed to white.
-
-The Captain's C does not always need to be passed on if it's
-unpresentable condition. In which the C patch should be 
-catalogued for all the captains who've worn it and put in archive.
-While a replacement is made
-
-
-Team Leads Identifications
---------------------------
-
-
-
-Subteam Chevrons Identifications
---------------------------------
-
-.. figure:: patches/renders/electrical_lead.png
-   :width: 125
-   :alt: Picture of Electrical Lead's livery
-
-   Electrical Lead's livery.
-
-
-Team Patches Identifications
-----------------------------
-
-Mentor Chevrons
-===============
-
-Mentor Chevrons + Patches Identifications
------------------------------------------
+Mentor and Alumni Chevrons
+==========================
 
 .. figure:: patches/renders/lead_mentor.png
    :width: 125
@@ -111,10 +63,7 @@ Mentor Chevrons + Patches Identifications
    :width: 125
    :alt: Picture of adult drivecoach mentor's livery
 
-   Mentor drive coach who was not an alumni [6]_.
-
-Alumni Mentors Chevrons
------------------------
+   Mentor Drive Coach's livery.
 
 .. figure:: patches/renders/alum_captain.png
    :width: 125
@@ -128,6 +77,9 @@ Alumni Mentors Chevrons
 
    Alumni Assistant Captain's livery.
 
+Examples
+========
+
 .. figure:: patches/renders/alum_drivecoach.png
    :width: 125
    :alt: Picture of Alumni drivecoach's livery
@@ -135,15 +87,33 @@ Alumni Mentors Chevrons
    Alumni drive coach who was lead of electrical and lead of mechanical
    during their time as a team member. (Likely not during the same years)
 
+   
+.. figure:: patches/renders/alumniLeadOfCode.png
+   :width: 125
+   :alt: Picture of Alumni Software Team's livery
 
-ALUMNI Chevrons
-=====================================
+   Alumni member who was lead of code and driver while they were on the team.
 
-Alumni Chevrons Identifications
--------------------------------
+.. figure:: patches/renders/mentor.png
+   :width: 125
+   :alt: Picture of a Mentor's livery
 
-Alumni Patches Identifications
-------------------------------
+   A current mentor on the team.
+
+
+.. |mechanical| image:: patches/renders/mechanical_asst.png
+   :width: 125
+   :alt: Assistant Lead of Mechanical's livery
+
+.. |driver| image:: patches/renders/driver.png
+   :width: 125
+   :alt: Driver's livery
+
+Then your final patch would look like this
+
+.. |mechanical_driver| image:: patches/renders/assistantMechanicalDriver.png
+   :width: 125
+   :alt: Assistant Mecahnical And Driver's livery
 
 
 .. Footnotes

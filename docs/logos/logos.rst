@@ -14,7 +14,7 @@ Submit a PR to have your logo added!
    :alt: 2017 Logo
 
    Not the oldest but the most commonly used official logo, commissioned
-   in 2017, we went to worlds with this logo and it stuck.
+   in 2016, we went to worlds with this logo and it stuck.
 
 2018
 ====

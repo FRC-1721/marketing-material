@@ -129,7 +129,7 @@ lead_mentor:
     - - LeadMentor
       - red
 
-member_drivecoach:
+student_drivecoach:
   chevrons:
     # Top to bottom
     - red
@@ -332,3 +332,41 @@ saftey_captian:
     # Max 2
     - - Safety
       - gold
+
+# Extras
+assistantMechanicalDriver:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - - red
+      - none
+    - none
+  patches:
+    # Max 2
+    - - Mechanical
+      - red
+    - - Driver
+      - red
+
+mentor:
+  chevrons:
+    # Top to bottom
+    - none
+    - white
+    - none
+    - none
+
+alumniLeadOfCode:
+  chevrons:
+    # Top to bottom
+    - none
+    - white
+    - white
+    - none
+  patches:
+    # Max 2
+    - - Software
+      - white
+    - - Driver
+      - white

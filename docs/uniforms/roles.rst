@@ -14,6 +14,8 @@ positions by *FIRST* and our own core views.
    The role of Team Captain is the most powerful single position
    on the team. They direct everything from robot construction to
    outreach, team events and anything else. They are always a student.
+   The team Captian participates in board meetings, and has the near ultimate
+   say with team decisions.
 
 
 .. figure:: patches/renders/asst_captain.png
@@ -29,9 +31,9 @@ positions by *FIRST* and our own core views.
    :width: 125
    :alt: Safety Captain's livery
 
-   The Safety Captain technically wields "the most powerful position" on the team, with the
-   exclusive ability to veto any decision even by the captain on argument of Safety. They are
-   always a student, they are expected to ensure safety in all aspects, not just in build season.
+   The Safety Captain technically wields exclusive ability to veto any decision even by the
+   captain on argument of Safety. They are always a student, they are expected to ensure
+   safety in all aspects, not just in build season or on the field.
 
 
 .. figure:: patches/renders/mechanical_lead.png
@@ -205,11 +207,11 @@ Competition Roles
    all the major subsystems and how to service them quickly before and after the match. They should be briefed individually by 
    each of the major technical leads.
 
-.. figure:: patches/renders/adult_drivecoach.png
+.. figure:: patches/renders/student_drivecoach.png
    :width: 125
    :alt: Drivecoach's livery
 
    The Drivecoach is the glue that binds the Driver and Operator together, their patch is a single upwards facing chevron added
-   to their liverly. This role is often an Alumni of the team, but not always. They cannot interact with the robot or field only coach.
+   to their livery. This role is often an Alumni of the team, but not always. They cannot interact with the robot or field, only coach.
    They keep eyes and ears open for changes in game play, and direct drivers with strategy on the fly, keeping track of time, robot position,
    advantageous scouring strategy etc.
