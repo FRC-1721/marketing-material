@@ -370,3 +370,39 @@ alumniLeadOfCode:
       - white
     - - Driver
       - white
+
+president:
+  chevrons:
+    # Top to bottom
+    - none
+    - white
+    - none
+    - none
+  patches:
+    # Max 2
+    - - President
+      - purple
+
+vicePresident:
+  chevrons:
+    # Top to bottom
+    - none
+    - white
+    - none
+    - none
+  patches:
+    # Max 2
+    - - VicePresident
+      - purple
+
+treasurer:
+  chevrons:
+    # Top to bottom
+    - none
+    - white
+    - none
+    - none
+  patches:
+    # Max 2
+    - - Treasurer
+      - purple
