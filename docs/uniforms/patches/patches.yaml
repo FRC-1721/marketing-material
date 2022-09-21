@@ -327,7 +327,8 @@ saftey_captian:
     - none
     - red
     - red
-    - none
+    - - red
+      - none
   patches:
     # Max 2
     - - Safety
