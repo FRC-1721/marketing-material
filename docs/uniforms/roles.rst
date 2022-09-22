@@ -215,3 +215,35 @@ Competition Roles
    to their livery. This role is often an Alumni of the team, but not always. They cannot interact with the robot or field, only coach.
    They keep eyes and ears open for changes in game play, and direct drivers with strategy on the fly, keeping track of time, robot position,
    advantageous scouring strategy etc.
+
+
+Board and Mentor Roles
+----------------------
+
+The board members serve on the robotics board and direct the finances and administration of the team, they also help to elect the 
+team Captain. Tidal Force is a student run team, and the board allows this while still assisting with administrative functions the 
+team cannot do on their own.
+
+.. figure:: patches/renders/president.png
+   :width: 125
+   :alt: Board President's livery
+
+   The President presides over the board and is the go-to contact for the robotics team when speaking administratively.
+
+.. figure:: patches/renders/vicePresident.png
+   :width: 125
+   :alt: Vice President's livery
+
+   Vice President
+
+.. figure:: patches/renders/treasurer.png
+   :width: 125
+   :alt: Treasurer's livery
+
+   Treasurer
+
+.. figure:: patches/renders/mentor.png
+   :width: 125
+   :alt: Mentor's livery
+
+   Mentor text here
