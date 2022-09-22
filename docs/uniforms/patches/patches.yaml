@@ -313,6 +313,18 @@ quartermaster:
     # Top to bottom
     - none
     - red
+    - red
+    - none
+  patches:
+    # Max 2
+    - - Quartermaster
+      - red
+
+quartermaster_asst:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
     - - red
       - none
     - none
