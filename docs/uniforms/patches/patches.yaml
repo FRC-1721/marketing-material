@@ -339,6 +339,18 @@ saftey_captian:
     - none
     - red
     - red
+    - red
+  patches:
+    # Max 2
+    - - Safety
+      - gold
+
+assistantSaftey_captian:
+  chevrons:
+    # Top to bottom
+    - none
+    - red
+    - red
     - - red
       - none
   patches:
