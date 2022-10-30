@@ -27,7 +27,7 @@ positions by *FIRST* and our own core views.
    along with the Captain, and serves in their absence with all the command associated.
    The Assistant captain is always a student.
 
-.. figure:: patches/renders/saftey_captian.png
+.. figure:: patches/renders/safety_captain.png
    :width: 125
    :alt: Safety Captain's livery
 
@@ -105,6 +105,14 @@ Supplementary Team Leadership
 Other Roles
 -----------
 
+.. figure:: patches/renders/quartermaster.png
+   :width: 125
+   :alt: Quartermaster's livery
+
+   The Quartermaster is responsible for the organization, categorization, and tidyness of the Team's
+   resources. They are often a student on the team with exceptional organization abilities. This role
+   is not always staffed.
+
 .. figure:: patches/renders/electrical_lead.png
    :width: 125
    :alt: Lead of Electrical's livery
@@ -121,14 +129,6 @@ Other Roles
    The Lead of Outreach maintains connections with outreach partners such as local FLL teams, local events (like
    market days) and other 'outreach events'. They are the glue that ties the financial, online and resource (Business, 
    Media and Quartermaster) together.
-
-.. figure:: patches/renders/quartermaster.png
-   :width: 125
-   :alt: Quartermaster's livery
-
-   The Quartermaster is responsible for the organization, categorization, and tidyness of the Team's
-   resources. They are often a student on the team with exceptional organization abilities. This role
-   is not always staffed.
 
 .. figure:: patches/renders/business_lead.png
    :width: 125
@@ -152,14 +152,6 @@ Other Roles
 Competition Roles
 -----------------
 
-.. figure:: patches/renders/scouting_lead.png
-   :width: 125
-   :alt: Lead of Scouting's livery
-
-   Scouting is an activity common in first where team members record and judge the performance of other teams
-   in an effort to find and secure strong teams for possible alliance section, the Lead of Scouting co-ordinates
-   these actions among their ad-hoc team of Scouters.
-
 .. figure:: patches/renders/pitcrew.png
    :width: 125
    :alt: Pitcrew's livery
@@ -167,6 +159,14 @@ Competition Roles
    The Pitcrew Chief bears this livery, the Pitcrew Chief is often the Lead of Mechanical but not always, they
    are responsible for all things in the pitcrew including selecting pitcrew members and maintaining an efficient
    working environment in the pits.
+
+.. figure:: patches/renders/scouting_lead.png
+   :width: 125
+   :alt: Lead of Scouting's livery
+
+   Scouting is an activity common in first where team members record and judge the performance of other teams
+   in an effort to find and secure strong teams for possible alliance section, the Lead of Scouting co-ordinates
+   these actions among their ad-hoc team of Scouters.
 
 .. figure:: patches/renders/pitcrew_member.png
    :width: 125

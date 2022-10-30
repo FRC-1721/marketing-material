@@ -88,9 +88,9 @@ pitcrew:
     # Top to bottom
     - none
     - red
+    - red
     - - red
       - none
-    - none
   patches:
     # Max 2
     - - Pitcrew
@@ -314,7 +314,8 @@ quartermaster:
     - none
     - red
     - red
-    - none
+    - - red
+      - none
   patches:
     # Max 2
     - - Quartermaster
@@ -333,7 +334,7 @@ quartermaster_asst:
     - - Quartermaster
       - red
 
-saftey_captian:
+safety_captain:
   chevrons:
     # Top to bottom
     - none
@@ -345,7 +346,7 @@ saftey_captian:
     - - Safety
       - gold
 
-assistantSaftey_captian:
+assistantSafety_captain:
   chevrons:
     # Top to bottom
     - none
