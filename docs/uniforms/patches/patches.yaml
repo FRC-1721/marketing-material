@@ -314,8 +314,7 @@ quartermaster:
     - none
     - red
     - red
-    - - red
-      - none
+    - red
   patches:
     # Max 2
     - - Quartermaster
