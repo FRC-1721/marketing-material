@@ -92,16 +92,30 @@ if __name__ == "__main__":
         # The actual livery image!
         liveryImage = Image.new("RGBA", (510, 1020), color=(0, 0, 0, 0))
 
-        # Place the top chevron if it exists
+        # Place the top two chevrons if they exist
         if liveryData["chevrons"][0] != "none":
             logging.info(
-                f"Found top chevron on {patchCollection}, {liveryData['chevrons'][0]}"
+                f"Found super top chevron on {patchCollection}, {liveryData['chevrons'][0]}"
             )
             liveryImage.alpha_composite(
                 getPatch("masks/Chevron Mask.png", getColor(liveryData["chevrons"][0]))
             )
 
-            cursor = 112
+            cursor = cursor + 112
+
+        if liveryData["chevrons"][1] != "none":
+            logging.info(
+                f"Found top chevron on {patchCollection}, {liveryData['chevrons'][1]}"
+            )
+            liveryImage.alpha_composite(
+                getPatch(
+                    "masks/Chevron Mask.png",
+                    getColor(liveryData["chevrons"][1]),
+                ),
+                (0, cursor),
+            )
+
+            cursor = cursor + 120
 
         try:
             if len(liveryData["patches"]) == 0:
@@ -154,36 +168,11 @@ if __name__ == "__main__":
             pass
 
             # Special exception here, if no patches at all, do this extra check...
-            if liveryData["chevrons"][0] != "none":
+            if liveryData["chevrons"][1] != "none":
                 cursor = cursor + 120
 
         # Bottom 3 chevrons
-        if liveryData["chevrons"][1] != "none":
-            offset = (0, cursor)
-
-            if isinstance(liveryData["chevrons"][1], list):
-                logging.info(f"Special half-chevron found on {patchCollection}")
-
-                liveryImage = composite_half_patch(
-                    liveryImage, liveryData["chevrons"][1], offset
-                )
-
-            else:
-                logging.info(f"Found first chevron on {patchCollection}")
-
-                liveryImage.alpha_composite(
-                    getPatch(
-                        "masks/Chevron Mask.png",
-                        getColor(liveryData["chevrons"][1]),
-                        180,
-                    ),
-                    offset,
-                )
-
-            cursor = cursor + 120
-
         if liveryData["chevrons"][2] != "none":
-            logging.info(f"Found second chevron on {patchCollection}")
             offset = (0, cursor)
 
             if isinstance(liveryData["chevrons"][2], list):
@@ -194,6 +183,7 @@ if __name__ == "__main__":
                 )
 
             else:
+                logging.info(f"Found first chevron on {patchCollection}")
 
                 liveryImage.alpha_composite(
                     getPatch(
@@ -207,8 +197,7 @@ if __name__ == "__main__":
             cursor = cursor + 120
 
         if liveryData["chevrons"][3] != "none":
-            logging.info(f"Found third chevron on {patchCollection}")
-
+            logging.info(f"Found second chevron on {patchCollection}")
             offset = (0, cursor)
 
             if isinstance(liveryData["chevrons"][3], list):
@@ -224,6 +213,31 @@ if __name__ == "__main__":
                     getPatch(
                         "masks/Chevron Mask.png",
                         getColor(liveryData["chevrons"][3]),
+                        180,
+                    ),
+                    offset,
+                )
+
+            cursor = cursor + 120
+
+        if liveryData["chevrons"][4] != "none":
+            logging.info(f"Found third chevron on {patchCollection}")
+
+            offset = (0, cursor)
+
+            if isinstance(liveryData["chevrons"][4], list):
+                logging.info(f"Special half-chevron found on {patchCollection}")
+
+                liveryImage = composite_half_patch(
+                    liveryImage, liveryData["chevrons"][4], offset
+                )
+
+            else:
+
+                liveryImage.alpha_composite(
+                    getPatch(
+                        "masks/Chevron Mask.png",
+                        getColor(liveryData["chevrons"][4]),
                         180,
                     ),
                     offset,

@@ -8,6 +8,7 @@ captain:
   chevrons:
     # Top to bottom
     - red
+    - red
     - gold
     - red
     - red
@@ -19,6 +20,7 @@ captain:
 asst_captain:
   chevrons:
     # Top to bottom
+    - red
     - red
     - - gold
       - red
@@ -33,6 +35,7 @@ alum_captain:
   chevrons:
     # Top to bottom
     - none
+    - none
     - gold
     - white
     - white
@@ -40,6 +43,7 @@ alum_captain:
 alum_asst_captain:
   chevrons:
     # Top to bottom
+    - none
     - none
     - - gold
       - white
@@ -50,6 +54,7 @@ alum_asst_captain:
 driver:
   chevrons:
     # Top to bottom
+    - none
     - none
     - red
     - none
@@ -63,6 +68,7 @@ technician:
   chevrons:
     # Top to bottom
     - none
+    - none
     - red
     - none
     - none
@@ -75,6 +81,7 @@ humanplayer:
   chevrons:
     # Top to bottom
     - none
+    - none
     - red
     - none
     - none
@@ -86,6 +93,7 @@ humanplayer:
 pitcrew:
   chevrons:
     # Top to bottom
+    - none
     - none
     - red
     - red
@@ -100,6 +108,7 @@ pitcrew_member:
   chevrons:
     # Top to bottom
     - none
+    - none
     - red
     - none
     - none
@@ -107,6 +116,7 @@ pitcrew_member:
 operator:
   chevrons:
     # Top to bottom
+    - none
     - none
     - red
     - none
@@ -121,6 +131,7 @@ lead_mentor:
   chevrons:
     # Top to bottom
     - none
+    - none
     - white
     - none
     - none
@@ -132,6 +143,7 @@ lead_mentor:
 student_drivecoach:
   chevrons:
     # Top to bottom
+    - none
     - red
     - red
     - none
@@ -140,6 +152,7 @@ student_drivecoach:
 adult_drivecoach:
   chevrons:
     # Top to bottom
+    - none
     - red
     - white
     - none
@@ -148,6 +161,7 @@ adult_drivecoach:
 alum_drivecoach:
   chevrons:
     # Top to bottom
+    - none
     - red
     - white
     - white
@@ -164,6 +178,7 @@ electrical_lead:
   chevrons:
     # Top to bottom
     - none
+    - none
     - red
     - red
     - none
@@ -175,6 +190,7 @@ electrical_lead:
 electrical_asst:
   chevrons:
     # Top to bottom
+    - none
     - none
     - red
     - - red
@@ -189,6 +205,7 @@ mechanical_lead:
   chevrons:
     # Top to bottom
     - none
+    - none
     - red
     - red
     - none
@@ -200,6 +217,7 @@ mechanical_lead:
 mechanical_asst:
   chevrons:
     # Top to bottom
+    - none
     - none
     - red
     - - red
@@ -214,6 +232,7 @@ software_lead:
   chevrons:
     # Top to bottom
     - none
+    - none
     - red
     - red
     - none
@@ -225,6 +244,7 @@ software_lead:
 software_asst:
   chevrons:
     # Top to bottom
+    - none
     - none
     - red
     - - red
@@ -239,6 +259,7 @@ cad_lead:
   chevrons:
     # Top to bottom
     - none
+    - none
     - red
     - red
     - none
@@ -250,6 +271,7 @@ cad_lead:
 cad_asst:
   chevrons:
     # Top to bottom
+    - none
     - none
     - red
     - - red
@@ -264,6 +286,7 @@ scouting_lead:
   chevrons:
     # Top to bottom
     - none
+    - none
     - red
     - red
     - none
@@ -275,6 +298,7 @@ scouting_lead:
 media_lead:
   chevrons:
     # Top to bottom
+    - none
     - none
     - red
     - red
@@ -288,6 +312,7 @@ business_lead:
   chevrons:
     # Top to bottom
     - none
+    - none
     - red
     - red
     - none
@@ -300,6 +325,7 @@ outreach:
   chevrons:
     # Top to bottom
     - none
+    - none
     - red
     - red
     - none
@@ -311,6 +337,7 @@ outreach:
 quartermaster:
   chevrons:
     # Top to bottom
+    - none
     - none
     - red
     - red
@@ -336,6 +363,7 @@ quartermaster_asst:
 safety_captain:
   chevrons:
     # Top to bottom
+    - none
     - none
     - red
     - red
@@ -363,6 +391,7 @@ assistantMechanicalDriver:
   chevrons:
     # Top to bottom
     - none
+    - none
     - red
     - - red
       - none
@@ -378,6 +407,7 @@ mentor:
   chevrons:
     # Top to bottom
     - none
+    - none
     - white
     - none
     - none
@@ -385,6 +415,7 @@ mentor:
 alumniLeadOfCode:
   chevrons:
     # Top to bottom
+    - none
     - none
     - white
     - white
@@ -400,6 +431,7 @@ president:
   chevrons:
     # Top to bottom
     - none
+    - none
     - white
     - none
     - none
@@ -412,6 +444,7 @@ vicePresident:
   chevrons:
     # Top to bottom
     - none
+    - none
     - white
     - none
     - none
@@ -423,6 +456,7 @@ vicePresident:
 treasurer:
   chevrons:
     # Top to bottom
+    - none
     - none
     - white
     - none
