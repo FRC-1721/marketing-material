@@ -351,6 +351,7 @@ quartermaster_asst:
   chevrons:
     # Top to bottom
     - none
+    - none
     - red
     - - red
       - none
@@ -376,6 +377,7 @@ safety_captain:
 assistantSafety_captain:
   chevrons:
     # Top to bottom
+    - none
     - none
     - red
     - red
