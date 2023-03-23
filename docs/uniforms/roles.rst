@@ -27,7 +27,7 @@ positions by *FIRST* and our own core views.
    along with the Captain, and serves in their absence with all the command associated.
    The Assistant captain is always a student.
 
-.. figure:: patches/renders/saftey_captian.png
+.. figure:: patches/renders/safety_captain.png
    :width: 125
    :alt: Safety Captain's livery
 
@@ -105,6 +105,14 @@ Supplementary Team Leadership
 Other Roles
 -----------
 
+.. figure:: patches/renders/quartermaster.png
+   :width: 125
+   :alt: Quartermaster's livery
+
+   The Quartermaster is responsible for the organization, categorization, and tidyness of the Team's
+   resources. They are often a student on the team with exceptional organization abilities. This role
+   is not always staffed.
+
 .. figure:: patches/renders/electrical_lead.png
    :width: 125
    :alt: Lead of Electrical's livery
@@ -121,14 +129,6 @@ Other Roles
    The Lead of Outreach maintains connections with outreach partners such as local FLL teams, local events (like
    market days) and other 'outreach events'. They are the glue that ties the financial, online and resource (Business, 
    Media and Quartermaster) together.
-
-.. figure:: patches/renders/quartermaster.png
-   :width: 125
-   :alt: Quartermaster's livery
-
-   The Quartermaster is responsible for the organization, categorization, and tidyness of the Team's
-   resources. They are often a student on the team with exceptional organization abilities. This role
-   is not always staffed.
 
 .. figure:: patches/renders/business_lead.png
    :width: 125
@@ -152,14 +152,6 @@ Other Roles
 Competition Roles
 -----------------
 
-.. figure:: patches/renders/scouting_lead.png
-   :width: 125
-   :alt: Lead of Scouting's livery
-
-   Scouting is an activity common in first where team members record and judge the performance of other teams
-   in an effort to find and secure strong teams for possible alliance section, the Lead of Scouting co-ordinates
-   these actions among their ad-hoc team of Scouters.
-
 .. figure:: patches/renders/pitcrew.png
    :width: 125
    :alt: Pitcrew's livery
@@ -167,6 +159,14 @@ Competition Roles
    The Pitcrew Chief bears this livery, the Pitcrew Chief is often the Lead of Mechanical but not always, they
    are responsible for all things in the pitcrew including selecting pitcrew members and maintaining an efficient
    working environment in the pits.
+
+.. figure:: patches/renders/scouting_lead.png
+   :width: 125
+   :alt: Lead of Scouting's livery
+
+   Scouting is an activity common in first where team members record and judge the performance of other teams
+   in an effort to find and secure strong teams for possible alliance section, the Lead of Scouting co-ordinates
+   these actions among their ad-hoc team of Scouters.
 
 .. figure:: patches/renders/pitcrew_member.png
    :width: 125
@@ -215,3 +215,35 @@ Competition Roles
    to their livery. This role is often an Alumni of the team, but not always. They cannot interact with the robot or field, only coach.
    They keep eyes and ears open for changes in game play, and direct drivers with strategy on the fly, keeping track of time, robot position,
    advantageous scouring strategy etc.
+
+
+Board and Mentor Roles
+----------------------
+
+The board members serve on the robotics board and direct the finances and administration of the team, they also help to elect the 
+team Captain. Tidal Force is a student run team, and the board allows this while still assisting with administrative functions the 
+team cannot do on their own.
+
+.. figure:: patches/renders/president.png
+   :width: 125
+   :alt: Board President's livery
+
+   The President presides over the board and is the go-to contact for the robotics team when speaking administratively.
+
+.. figure:: patches/renders/vicePresident.png
+   :width: 125
+   :alt: Vice President's livery
+
+   Vice President
+
+.. figure:: patches/renders/treasurer.png
+   :width: 125
+   :alt: Treasurer's livery
+
+   Treasurer
+
+.. figure:: patches/renders/mentor.png
+   :width: 125
+   :alt: Mentor's livery
+
+   Mentor text here

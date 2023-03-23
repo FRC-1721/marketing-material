@@ -8,6 +8,7 @@ captain:
   chevrons:
     # Top to bottom
     - red
+    - red
     - gold
     - red
     - red
@@ -19,6 +20,7 @@ captain:
 asst_captain:
   chevrons:
     # Top to bottom
+    - red
     - red
     - - gold
       - red
@@ -33,6 +35,7 @@ alum_captain:
   chevrons:
     # Top to bottom
     - none
+    - none
     - gold
     - white
     - white
@@ -40,6 +43,7 @@ alum_captain:
 alum_asst_captain:
   chevrons:
     # Top to bottom
+    - none
     - none
     - - gold
       - white
@@ -50,6 +54,7 @@ alum_asst_captain:
 driver:
   chevrons:
     # Top to bottom
+    - none
     - none
     - red
     - none
@@ -63,6 +68,7 @@ technician:
   chevrons:
     # Top to bottom
     - none
+    - none
     - red
     - none
     - none
@@ -74,6 +80,7 @@ technician:
 humanplayer:
   chevrons:
     # Top to bottom
+    - none
     - none
     - red
     - none
@@ -87,10 +94,11 @@ pitcrew:
   chevrons:
     # Top to bottom
     - none
+    - none
+    - red
     - red
     - - red
       - none
-    - none
   patches:
     # Max 2
     - - Pitcrew
@@ -100,6 +108,7 @@ pitcrew_member:
   chevrons:
     # Top to bottom
     - none
+    - none
     - red
     - none
     - none
@@ -107,6 +116,7 @@ pitcrew_member:
 operator:
   chevrons:
     # Top to bottom
+    - none
     - none
     - red
     - none
@@ -121,6 +131,7 @@ lead_mentor:
   chevrons:
     # Top to bottom
     - none
+    - none
     - white
     - none
     - none
@@ -132,6 +143,7 @@ lead_mentor:
 student_drivecoach:
   chevrons:
     # Top to bottom
+    - none
     - red
     - red
     - none
@@ -140,6 +152,7 @@ student_drivecoach:
 adult_drivecoach:
   chevrons:
     # Top to bottom
+    - none
     - red
     - white
     - none
@@ -148,6 +161,7 @@ adult_drivecoach:
 alum_drivecoach:
   chevrons:
     # Top to bottom
+    - none
     - red
     - white
     - white
@@ -164,6 +178,7 @@ electrical_lead:
   chevrons:
     # Top to bottom
     - none
+    - none
     - red
     - red
     - none
@@ -175,6 +190,7 @@ electrical_lead:
 electrical_asst:
   chevrons:
     # Top to bottom
+    - none
     - none
     - red
     - - red
@@ -189,6 +205,7 @@ mechanical_lead:
   chevrons:
     # Top to bottom
     - none
+    - none
     - red
     - red
     - none
@@ -200,6 +217,7 @@ mechanical_lead:
 mechanical_asst:
   chevrons:
     # Top to bottom
+    - none
     - none
     - red
     - - red
@@ -214,6 +232,7 @@ software_lead:
   chevrons:
     # Top to bottom
     - none
+    - none
     - red
     - red
     - none
@@ -225,6 +244,7 @@ software_lead:
 software_asst:
   chevrons:
     # Top to bottom
+    - none
     - none
     - red
     - - red
@@ -239,6 +259,7 @@ cad_lead:
   chevrons:
     # Top to bottom
     - none
+    - none
     - red
     - red
     - none
@@ -250,6 +271,7 @@ cad_lead:
 cad_asst:
   chevrons:
     # Top to bottom
+    - none
     - none
     - red
     - - red
@@ -264,6 +286,7 @@ scouting_lead:
   chevrons:
     # Top to bottom
     - none
+    - none
     - red
     - red
     - none
@@ -275,6 +298,7 @@ scouting_lead:
 media_lead:
   chevrons:
     # Top to bottom
+    - none
     - none
     - red
     - red
@@ -288,6 +312,7 @@ business_lead:
   chevrons:
     # Top to bottom
     - none
+    - none
     - red
     - red
     - none
@@ -299,6 +324,7 @@ business_lead:
 outreach:
   chevrons:
     # Top to bottom
+    - none
     - none
     - red
     - red
@@ -312,6 +338,20 @@ quartermaster:
   chevrons:
     # Top to bottom
     - none
+    - none
+    - red
+    - red
+    - red
+  patches:
+    # Max 2
+    - - Quartermaster
+      - red
+
+quartermaster_asst:
+  chevrons:
+    # Top to bottom
+    - none
+    - none
     - red
     - - red
       - none
@@ -321,13 +361,28 @@ quartermaster:
     - - Quartermaster
       - red
 
-saftey_captian:
+safety_captain:
   chevrons:
     # Top to bottom
     - none
-    - red
-    - red
     - none
+    - red
+    - red
+    - red
+  patches:
+    # Max 2
+    - - Safety
+      - gold
+
+assistantSafety_captain:
+  chevrons:
+    # Top to bottom
+    - none
+    - none
+    - red
+    - red
+    - - red
+      - none
   patches:
     # Max 2
     - - Safety
@@ -337,6 +392,7 @@ saftey_captian:
 assistantMechanicalDriver:
   chevrons:
     # Top to bottom
+    - none
     - none
     - red
     - - red
@@ -353,6 +409,7 @@ mentor:
   chevrons:
     # Top to bottom
     - none
+    - none
     - white
     - none
     - none
@@ -360,6 +417,7 @@ mentor:
 alumniLeadOfCode:
   chevrons:
     # Top to bottom
+    - none
     - none
     - white
     - white
@@ -375,6 +433,7 @@ president:
   chevrons:
     # Top to bottom
     - none
+    - none
     - white
     - none
     - none
@@ -387,6 +446,7 @@ vicePresident:
   chevrons:
     # Top to bottom
     - none
+    - none
     - white
     - none
     - none
@@ -398,6 +458,7 @@ vicePresident:
 treasurer:
   chevrons:
     # Top to bottom
+    - none
     - none
     - white
     - none

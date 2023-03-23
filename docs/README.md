@@ -10,10 +10,12 @@ pipenv install -r requirements.txt
 pipenv shell
 ```
 
-Then invoke make
+To make things easier, this project uses a build tool called make
+
+To use it just run
 
 ```
 make
 ```
 
-Thats it!
+Thats it! Make some edits, and then run `make html`
