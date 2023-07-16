@@ -10,7 +10,7 @@ Submit a PR to have your logo added!
 ====
 
 .. figure:: ../../logos/2017/rendered/tidalforce.png
-   :width: 125
+   :width: 60%
    :alt: 2017 Logo
 
    Not the oldest but the most commonly used official logo, commissioned
@@ -20,7 +20,7 @@ Submit a PR to have your logo added!
 ====
 
 .. figure:: ../../logos/2018/rendered/powerup.png
-   :width: 125
+   :width: 60%
    :alt: 2018 Logo
 
    The 8-bit logo used in 2018, originally made by Caleb.
@@ -30,14 +30,25 @@ Submit a PR to have your logo added!
 ====
 
 .. figure:: ../../logos/2019/rendered/Joes_2019_Season_Logo_(CW_SPIN,_TSHIRT,_STARS).png
-   :width: 125
+   :width: 60%
    :alt: 2019 Logo
 
    This series of logos designed by Joe for the 2019 season, they come in several flavors.
 
 .. figure:: ../../logos/2019/rendered/Joes_2019_Season_Logo_(CW_SPIN,_NOBACKGROUND).png
-   :width: 125
+   :width: 60%
    :alt: 2019 Logo
 
    Inverted Variant
 
+2023
+====
+
+.. figure:: ../../logos/2023/rendered/2023_logo.png
+   :width: 60%
+   :alt: 2023 Logo
+
+   Inspired by the cyberpunk nature of the 2023 game, this cyberpunk logo was used for the 
+   2023 season. Designed by Connor_.
+
+.. _Connor: https://github.com/RealConar
