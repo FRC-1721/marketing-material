@@ -37,6 +37,16 @@ Vivve Fest
    :alt: Vivve Fest 8 Sticker
 
    The Winter 2022 Vivve Fest sticker was designed by Joe_.
+   
+
+2023
+----
+
+.. figure:: ../../stickers/Vivve\ Fest\ Stickers/2023/summer/rendered/Vivve\ Fest\ 9.png
+   :width: 80%
+   :alt: Vivve Fest 9 Sticker
+
+   The Winter 2023 Vivve Fest sticker was designed by Conar_.
 
 .. _Joe: https://github.com/KenwoodFox
-.. _Connor: https://github.com/RealConar
+.. _Conar: https://github.com/RealConar
