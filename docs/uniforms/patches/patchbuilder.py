@@ -248,7 +248,7 @@ if __name__ == "__main__":
                 cursor = cursor + 120
 
         elif "tenure_bars" in liveryData:
-            logging.info(f"Processing tenure bar")
+            logging.info(f"Processing tenure bar {patchCollection}")
             for bar in liveryData["tenure_bars"]:
                 # Check if this is a normal bar or a double bar
                 if type(bar) is not list:

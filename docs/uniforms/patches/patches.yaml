@@ -471,9 +471,9 @@ treasurer:
 tenure_captain:
   tenure_bars:
     - white
+    - gold
     - - gold
       - red
-    - red
     - red
     - red
 
@@ -509,6 +509,10 @@ sixYearsAlum:
 
 goldService:
   tenure_bars:
+    - gold
+
+goldAsstService:
+  tenure_bars:
     - - gold
       - red
 
@@ -521,3 +525,7 @@ boardService:
   tenure_bars:
     - - purple
       - white
+
+presidentService:
+  tenure_bars:
+    - purple
