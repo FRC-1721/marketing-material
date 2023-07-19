@@ -37,7 +37,6 @@ def getPatch(patch, color, angle=0):
 
 
 def getColor(key):
-
     if key == "white":
         return (184, 184, 184)
     elif key == "red":
@@ -98,7 +97,9 @@ if __name__ == "__main__":
                 f"Found super top chevron on {patchCollection}, {liveryData['chevrons'][0]}"
             )
             liveryImage.alpha_composite(
-                getPatch("masks/Chevron Mask.png", getColor(liveryData["chevrons"][0]))
+                getPatch(
+                    "masks/Upper Chevron Mask.png", getColor(liveryData["chevrons"][0])
+                )
             )
 
             cursor = cursor + 112
@@ -109,7 +110,7 @@ if __name__ == "__main__":
             )
             liveryImage.alpha_composite(
                 getPatch(
-                    "masks/Chevron Mask.png",
+                    "masks/Upper Chevron Mask.png",
                     getColor(liveryData["chevrons"][1]),
                 ),
                 (0, cursor),
@@ -208,7 +209,6 @@ if __name__ == "__main__":
                 )
 
             else:
-
                 liveryImage.alpha_composite(
                     getPatch(
                         "masks/Chevron Mask.png",
@@ -233,7 +233,6 @@ if __name__ == "__main__":
                 )
 
             else:
-
                 liveryImage.alpha_composite(
                     getPatch(
                         "masks/Chevron Mask.png",
