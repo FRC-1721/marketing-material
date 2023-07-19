@@ -455,6 +455,19 @@ vicePresident:
     - - VicePresident
       - purple
 
+secretary:
+  chevrons:
+    # Top to bottom
+    - none
+    - none
+    - white
+    - none
+    - none
+  patches:
+    # Max 2
+    - - Treasurer
+      - purple
+
 treasurer:
   chevrons:
     # Top to bottom

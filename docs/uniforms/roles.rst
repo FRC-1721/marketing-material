@@ -142,6 +142,14 @@ Leader (E4)
    of outreach. They are also responsible for managing the production and distribution of the Reveal Video and other
    video media.
 
+.. figure:: patches/renders/scouting_lead.png
+   :width: 125
+   :alt: Lead of Scouting's livery
+
+   Scouting is an activity common in first where team members record and judge the performance of other teams
+   in an effort to find and secure strong teams for possible alliance section, the Lead of Scouting co-ordinates
+   these actions among their ad-hoc team of Scouters.
+
 .. figure:: patches/renders/student_drivecoach.png
    :width: 125
    :alt: Drivecoach's livery
@@ -189,14 +197,6 @@ Assistant Leader (E3)
 Specalist (E2)
 --------------
 
-.. figure:: patches/renders/scouting_lead.png
-   :width: 125
-   :alt: Lead of Scouting's livery
-
-   Scouting is an activity common in first where team members record and judge the performance of other teams
-   in an effort to find and secure strong teams for possible alliance section, the Lead of Scouting co-ordinates
-   these actions among their ad-hoc team of Scouters.
-
 .. figure:: patches/renders/pitcrew_member.png
    :width: 125
    :alt: Pitcrew Member's livery
@@ -236,6 +236,12 @@ Specalist (E2)
    all the major subsystems and how to service them quickly before and after the match. They should be briefed individually by 
    each of the major technical leads.
 
+.. figure:: patches/renders/secretary.png
+   :width: 125
+   :alt: Secretary's livery
+
+   The board secretary keeps notes and logs of board meetings and assists with running the board behind the scenes.
+
 .. figure:: patches/renders/treasurer.png
    :width: 125
    :alt: Treasurer's livery
@@ -267,6 +273,9 @@ Retired Positions
    working environment in the pits.
 
    .. note:: The Pitcrew Cheif is no longer promoted to, in favor of leaving pit crew direction to the Lead of Mechanical
+             When it was utilized in 2022, it had two chevrons. When it was proposed in 2023 it had two and a half, before 
+             it's retirement. So while the official pit crew chief insignia is 2 1/2, that insignia was never worn. While 
+             the 2022 (2 Chevron variant) worn by Micheal is the only physical example.
 
 .. figure:: patches/renders/business_lead.png
    :width: 125
