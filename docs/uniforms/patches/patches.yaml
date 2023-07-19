@@ -470,7 +470,9 @@ treasurer:
 
 tenure_captain:
   tenure_bars:
-    - leader
+    - white
+    - - gold
+      - red
     - red
     - red
     - red

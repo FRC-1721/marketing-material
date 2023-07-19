@@ -8,6 +8,7 @@ Welcome to Tidal Force Infrastructure's documentation!
    introduction/introduction
    uniforms/roles
    uniforms/chevrons
+   uniforms/tenure
    stickers/stickers
    stickers/buttons
    awards/medals

@@ -246,8 +246,37 @@ if __name__ == "__main__":
                     )
 
                 cursor = cursor + 120
+
         elif "tenure_bars" in liveryData:
-            print("Processing tenure bars!")
+            logging.info(f"Processing tenure bar")
+            for bar in liveryData["tenure_bars"]:
+                # Check if this is a normal bar or a double bar
+                if type(bar) is not list:
+                    liveryImage.alpha_composite(
+                        getPatch(
+                            "masks/Tenure Bar.png",
+                            getColor(bar),
+                        ),
+                        (0, cursor),
+                    )
+                else:
+                    # If it is a list, its a double bar! Lets process it
+                    liveryImage.alpha_composite(
+                        getPatch(
+                            "masks/Tenure Bar.png",
+                            getColor(bar[1]),
+                        ),
+                        (0, cursor),
+                    )
+                    liveryImage.alpha_composite(
+                        getPatch(
+                            "masks/Tenure Half Bar.png",
+                            getColor(bar[0]),
+                        ),
+                        (0, cursor),
+                    )
+
+                cursor = cursor + 130
 
         liveryImage = liveryImage.crop((0, 0, 510, cursor + 120))
 
