@@ -100,7 +100,7 @@ if __name__ == "__main__":
                 )
                 liveryImage.alpha_composite(
                     getPatch(
-                        "masks/Upper Chevron Mask.png",
+                        "masks/Rocker Mask.png",
                         getColor(liveryData["chevrons"][0]),
                     )
                 )
@@ -113,7 +113,7 @@ if __name__ == "__main__":
                 )
                 liveryImage.alpha_composite(
                     getPatch(
-                        "masks/Upper Chevron Mask.png",
+                        "masks/Rocker Mask.png",
                         getColor(liveryData["chevrons"][1]),
                     ),
                     (0, cursor),

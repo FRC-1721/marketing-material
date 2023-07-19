@@ -16,7 +16,7 @@ The Enderson Award
 
 
 The Captian's Award
-==================
+===================
 
 .. figure:: ../../awards/medals/captain_medal.png
    :width: 150
@@ -26,7 +26,7 @@ The Captian's Award
 
 
 The President's Award
-==================
+=====================
 
 .. figure:: ../../awards/medals/president_medal.png
    :width: 150
