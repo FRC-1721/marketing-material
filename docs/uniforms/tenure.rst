@@ -26,19 +26,19 @@ Tenure bars display different meaning based on color and placement.
 | |sixYearsAlum|   | The next bar denotes an additional 3 years (6 years total), and repeats every three years. |
 +------------------+--------------------------------------------------------------------------------------------+
 
-+---------------------+---------------------------------------------------------------------------------------------------------------------------+
-|         Bar         |                                                       Decorations.                                                        |
-+=====================+===========================================================================================================================+
-| |goldService|       | A gold bar denotes the position of Captain.  (see :ref:`Core Team Leadership`)                                            |
-+---------------------+---------------------------------------------------------------------------------------------------------------------------+
-| |goldAsstService|   | A gold half bar may be placed over a red patch for either Co-Captain or Safety Captain  (see :ref:`Core Team Leadership`) |
-+---------------------+---------------------------------------------------------------------------------------------------------------------------+
-| |leadMentorService| | A red bar may be placed on a white patch for the position of Lead Mentor (see :ref:`Board and Mentor Roles`)              |
-+---------------------+---------------------------------------------------------------------------------------------------------------------------+
-| |presidentService|  | A full purple bar denotes board President. (see :ref:`Board and Mentor Roles`)                                            |
-+---------------------+---------------------------------------------------------------------------------------------------------------------------+
-| |boardService|      | A purple bar may be placed on a white patch for either Vice President or Treasurer (see :ref:`Board and Mentor Roles`)    |
-+---------------------+---------------------------------------------------------------------------------------------------------------------------+
++---------------------+----------------------------------+
+|         Bar         |           Decorations.           |
++=====================+==================================+
+| |goldService|       | Team Captain                     |
++---------------------+----------------------------------+
+| |goldAsstService|   | Co-Captain                       |
++---------------------+----------------------------------+
+| |leadMentorService| | Lead Mentor                      |
++---------------------+----------------------------------+
+| |presidentService|  | Board President                  |
++---------------------+----------------------------------+
+| |boardService|      | Vice President or Treasurer.     |
++---------------------+----------------------------------+
 
 
 Examples
@@ -49,7 +49,7 @@ Examples
    :alt: Picture of a tenure captain's bars
 
    Team Captain's tenure bars, four years on the team, 
-   third year as Safety Captain or Assistant Captain, 
+   third year as Assistant Captain, 
    final year as Captain. 
    One or two years as a mentor.
 

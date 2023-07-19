@@ -40,14 +40,14 @@ Patch Placement
 The team patches reflect drive team positions, subteam 
 denotations for leads, Captain's position, and lead mentor
 position. Similar to chevron colors, Red denotes active
-work for the patch, and white an Alumni of the position [3]_.
+work for the patch, and white an Alumni of the position.
 Gold denotes senior leadership, and it used for Captain
 and asst. captain.
 
 White patches are only given out to Alumni's who've worked
 in the position either as lead, or on drive team, or as a
 mentor which is worthy of their work being memorialized a
-white patch [4]_.
+white patch.
 
 
 Mentor and Alumni Chevrons
