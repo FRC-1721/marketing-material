@@ -63,7 +63,8 @@ Examples
    :width: 125
    :alt: Calebs Service Bars
 
-   Caleb's Service Bars. Four Years on the team, one as captain.
+   Caleb's Service Bars. Three years on the team, one as Assistant Captain. 
+   Six years as a mentor.
    
 
 .. |oneYear| image:: patches/renders/oneYear.png

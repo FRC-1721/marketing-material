@@ -353,9 +353,9 @@ quartermaster_asst:
     - none
     - none
     - red
+    - red
     - - red
       - none
-    - none
   patches:
     # Max 2
     - - Quartermaster
@@ -483,14 +483,13 @@ rookie:
 
 caleb:
   tenure_bars:
-    - white
-    - white
-    - white
-    - gold
-    - - gold
+    - white # 2023
+    - white # 2020
+    - white # 2018
+    - red # 2017
+    - - gold # 2016
       - red
-    - red
-    - red
+    - red # 2015
 
 oneYear:
   tenure_bars:

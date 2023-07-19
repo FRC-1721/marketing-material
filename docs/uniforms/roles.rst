@@ -1,11 +1,8 @@
 Team Roles
 ##########
 
-Core Team Leadership
---------------------
-
-The Core Team Leadership consists of the officially recognized
-positions by *FIRST* and our own core views.
+Senior Leadership (E8)
+----------------------
 
 .. figure:: patches/renders/captain.png
    :width: 125
@@ -17,6 +14,21 @@ positions by *FIRST* and our own core views.
    The team Captain participates in board meetings, and has the near ultimate
    say with team decisions.
 
+.. figure:: patches/renders/president.png
+   :width: 125
+   :alt: Board President's livery
+
+   The President presides over the board and is the go-to contact for the robotics team when speaking administratively.
+
+.. figure:: patches/renders/lead_mentor.png
+   :width: 125
+   :alt: Lead Mentor's livery
+
+   The lead mentor...
+
+
+Assistant Senior Leadership (E7)
+--------------------------------
 
 .. figure:: patches/renders/asst_captain.png
    :width: 125
@@ -27,6 +39,16 @@ positions by *FIRST* and our own core views.
    along with the Captain, and serves in their absence with all the command associated.
    The Assistant captain is always a student.
 
+.. figure:: patches/renders/vicePresident.png
+   :width: 125
+   :alt: Vice President's livery
+
+   The Vice President serves in the Board President's absence. 
+
+
+Specialist Leadership (E6)
+--------------------------
+
 .. figure:: patches/renders/safety_captain.png
    :width: 125
    :alt: Safety Captain's livery
@@ -35,6 +57,42 @@ positions by *FIRST* and our own core views.
    captain on argument of Safety. They are always a student, they are expected to ensure
    safety in all aspects, not just in build season or on the field.
 
+.. figure:: patches/renders/quartermaster.png
+   :width: 125
+   :alt: Quartermaster's livery
+
+   The Quartermaster is responsible for the organization, categorization, and tidiness of the Team's
+   resources. They are often a student on the team with exceptional organization abilities. This role
+   is not always staffed.
+
+
+Assistant Specialist Leadership (E5)
+------------------------------------
+
+.. figure:: patches/renders/assistantSafety_captain.png
+   :width: 125
+   :alt: Assistant Safety Captain's livery
+
+   The Assistant Safety Captain holds office in the Safety Captain's absence.
+
+.. figure:: patches/renders/quartermaster_asst.png
+   :width: 125
+   :alt: Assistant Quartermaster's livery
+
+   The Assistant Quartermaster holds office in the Quartermaster's absence.
+
+
+Leader (E4)
+-----------
+
+.. figure:: patches/renders/electrical_lead.png
+   :width: 125
+   :alt: Lead of Electrical's livery
+
+   The Lead of Electrical is responsible for all things electrical on the robot, this role
+   is often filled by the Lead of Software but not always, the subteam is also usually small
+   but not always. Like other Leads, their expert opinion is sought in times of discussion 
+   with the Captian.
 
 .. figure:: patches/renders/mechanical_lead.png
    :width: 125
@@ -67,9 +125,35 @@ positions by *FIRST* and our own core views.
    subteam of Software Students. They are responsible for all robot software as well as the 
    infrastructure used by Mechanical, CAD, Media and other teams as "IT Support".
 
+.. figure:: patches/renders/outreach.png
+   :width: 125
+   :alt: Lead of Outreach's livery
 
-Supplementary Team Leadership
------------------------------
+   The Lead of Outreach maintains connections with outreach partners such as local FLL teams, local events (like
+   market days) and other 'outreach events'. They are the glue that ties the financial, online and resource (Business, 
+   Media and Quartermaster) together.
+
+.. figure:: patches/renders/media_lead.png
+   :width: 125
+   :alt: Lead of Media's livery
+
+   The Lead of Media maintains the media presence of the team, they maintain our active social media services as well
+   as moderate team online spaces such as the website, discord, the email chain, etc. They work heavily with the Lead 
+   of outreach. They are also responsible for managing the production and distribution of the Reveal Video and other
+   video media.
+
+.. figure:: patches/renders/student_drivecoach.png
+   :width: 125
+   :alt: Drivecoach's livery
+
+   The Drivecoach is the glue that binds the Driver and Operator together, their patch is a single upwards facing chevron added
+   to their livery. This role is often an Alumni of the team, but not always. They cannot interact with the robot or field, only coach.
+   They keep eyes and ears open for changes in game play, and direct drivers with strategy on the fly, keeping track of time, robot position,
+   advantageous scouring strategy etc.
+
+
+Assistant Leader (E3)
+---------------------
 
 .. figure:: patches/renders/mechanical_asst.png
    :width: 125
@@ -102,63 +186,8 @@ Supplementary Team Leadership
 .. note:: This role is often promoted by the Lead of Software
 
 
-Other Roles
------------
-
-.. figure:: patches/renders/quartermaster.png
-   :width: 125
-   :alt: Quartermaster's livery
-
-   The Quartermaster is responsible for the organization, categorization, and tidiness of the Team's
-   resources. They are often a student on the team with exceptional organization abilities. This role
-   is not always staffed.
-
-.. figure:: patches/renders/electrical_lead.png
-   :width: 125
-   :alt: Lead of Electrical's livery
-
-   The Lead of Electrical is responsible for all things electrical on the robot, this role
-   is often filled by the Lead of Software but not always, the subteam is also usually small
-   but not always. Like other Leads, their expert opinion is sought in times of discussion 
-   with the Captian.
-
-.. figure:: patches/renders/outreach.png
-   :width: 125
-   :alt: Lead of Outreach's livery
-
-   The Lead of Outreach maintains connections with outreach partners such as local FLL teams, local events (like
-   market days) and other 'outreach events'. They are the glue that ties the financial, online and resource (Business, 
-   Media and Quartermaster) together.
-
-.. figure:: patches/renders/business_lead.png
-   :width: 125
-   :alt: Lead of Business's livery
-
-   The Business Lead is responsible for all things financial, especially securing grants and funding, organizing
-   sponsorship packets, maintaining sponsor relationships, and assisting in ordering and spending.
-   They frequently work alongside the Lead of Outreach but wield a similar position. This role is often staffed by
-   the Captain but not always.
-
-.. figure:: patches/renders/media_lead.png
-   :width: 125
-   :alt: Lead of Media's livery
-
-   The Lead of Media maintains the media presence of the team, they maintain our active social media services as well
-   as moderate team online spaces such as the website, discord, the email chain, etc. They work heavily with the Lead 
-   of outreach. They are also responsible for managing the production and distribution of the Reveal Video and other
-   video media.
-
-
-Competition Roles
------------------
-
-.. figure:: patches/renders/pitcrew.png
-   :width: 125
-   :alt: Pitcrew's livery
-
-   The Pitcrew Chief bears this livery, the Pitcrew Chief is often the Lead of Mechanical but not always, they
-   are responsible for all things in the pitcrew including selecting pitcrew members and maintaining an efficient
-   working environment in the pits.
+Specalist (E2)
+--------------
 
 .. figure:: patches/renders/scouting_lead.png
    :width: 125
@@ -207,43 +236,45 @@ Competition Roles
    all the major subsystems and how to service them quickly before and after the match. They should be briefed individually by 
    each of the major technical leads.
 
-.. figure:: patches/renders/student_drivecoach.png
-   :width: 125
-   :alt: Drivecoach's livery
-
-   The Drivecoach is the glue that binds the Driver and Operator together, their patch is a single upwards facing chevron added
-   to their livery. This role is often an Alumni of the team, but not always. They cannot interact with the robot or field, only coach.
-   They keep eyes and ears open for changes in game play, and direct drivers with strategy on the fly, keeping track of time, robot position,
-   advantageous scouring strategy etc.
-
-
-Board and Mentor Roles
-----------------------
-
-The board members serve on the robotics board and direct the finances and administration of the team, they also help to elect the 
-team Captain. Tidal Force is a student run team, and the board allows this while still assisting with administrative functions the 
-team cannot do on their own.
-
-.. figure:: patches/renders/president.png
-   :width: 125
-   :alt: Board President's livery
-
-   The President presides over the board and is the go-to contact for the robotics team when speaking administratively.
-
-.. figure:: patches/renders/vicePresident.png
-   :width: 125
-   :alt: Vice President's livery
-
-   Vice President
-
 .. figure:: patches/renders/treasurer.png
    :width: 125
    :alt: Treasurer's livery
 
-   Treasurer
+   The treasurer manages the legal and financial side of the team along with the Outreach Lead.
+
+
+(E1)
+----
 
 .. figure:: patches/renders/mentor.png
    :width: 125
    :alt: Mentor's livery
 
-   Mentor text here
+   Each mentor receives one white chevron. The white signifies their hands off, white gloves role in the team.
+
+
+Retired Positions
+-----------------
+
+.. Warning:: These positions are no longer in service, and cannot be awarded or promoted to.
+
+.. figure:: patches/renders/pitcrew.png
+   :width: 125
+   :alt: Pitcrew's livery
+
+   The Pitcrew Chief bears this livery, the Pitcrew Chief is often the Lead of Mechanical but not always, they
+   are responsible for all things in the pitcrew including selecting pitcrew members and maintaining an efficient
+   working environment in the pits.
+
+   .. note:: The Pitcrew Cheif is no longer promoted to, in favor of leaving pit crew direction to the Lead of Mechanical
+
+.. figure:: patches/renders/business_lead.png
+   :width: 125
+   :alt: Lead of Business's livery
+
+   The Business Lead is responsible for all things financial, especially securing grants and funding, organizing
+   sponsorship packets, maintaining sponsor relationships, and assisting in ordering and spending.
+   They frequently work alongside the Lead of Outreach but wield a similar position. This role is often staffed by
+   the Captain but not always.
+
+   .. note:: The Business subteam is now part of the Outreach subteam as of 2023
