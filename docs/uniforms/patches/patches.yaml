@@ -476,3 +476,48 @@ tenure_captain:
     - red
     - red
     - red
+
+oneYear:
+  tenure_bars:
+    - red
+
+twoYears:
+  tenure_bars:
+    - red
+    - red
+
+threeYears:
+  tenure_bars:
+    - red
+    - red
+    - red
+
+oneYearAlum:
+  tenure_bars:
+    - white
+
+threeYearsAlum:
+  tenure_bars:
+    - white
+    - white
+
+sixYearsAlum:
+  tenure_bars:
+    - white
+    - white
+    - white
+
+goldService:
+  tenure_bars:
+    - - gold
+      - red
+
+leadMentorService:
+  tenure_bars:
+    - - red
+      - white
+
+boardService:
+  tenure_bars:
+    - - purple
+      - white
