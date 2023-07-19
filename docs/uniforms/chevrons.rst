@@ -39,7 +39,7 @@ Patch Placement
 
 The team patches reflect drive team positions, subteam 
 denotations for leads, Captain's position, and lead mentor
-position. Similar to chevron colours, Red denotes active
+position. Similar to chevron colors, Red denotes active
 work for the patch, and white an Alumni of the position [3]_.
 Gold denotes senior leadership, and it used for Captain
 and asst. captain.
@@ -113,4 +113,4 @@ Then your final patch would look like this
 
 .. |mechanical_driver| image:: patches/renders/assistantMechanicalDriver.png
    :width: 125
-   :alt: Assistant Mecahnical And Driver's livery
+   :alt: Assistant Mechanical And Driver's livery

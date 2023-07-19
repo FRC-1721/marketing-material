@@ -14,7 +14,7 @@ positions by *FIRST* and our own core views.
    The role of Team Captain is the most powerful single position
    on the team. They direct everything from robot construction to
    outreach, team events and anything else. They are always a student.
-   The team Captian participates in board meetings, and has the near ultimate
+   The team Captain participates in board meetings, and has the near ultimate
    say with team decisions.
 
 
@@ -109,7 +109,7 @@ Other Roles
    :width: 125
    :alt: Quartermaster's livery
 
-   The Quartermaster is responsible for the organization, categorization, and tidyness of the Team's
+   The Quartermaster is responsible for the organization, categorization, and tidiness of the Team's
    resources. They are often a student on the team with exceptional organization abilities. This role
    is not always staffed.
 
