@@ -477,6 +477,21 @@ tenure_captain:
     - red
     - red
 
+rookie:
+  tenure_bars:
+    - red
+
+caleb:
+  tenure_bars:
+    - white
+    - white
+    - white
+    - gold
+    - - gold
+      - red
+    - red
+    - red
+
 oneYear:
   tenure_bars:
     - red

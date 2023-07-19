@@ -53,6 +53,18 @@ Examples
    final year as Captain. 
    One or two years as a mentor.
 
+.. figure:: patches/renders/rookie.png
+   :width: 125
+   :alt: Picture of a rookie's bar
+
+   A rookie member receives one bar after completing one complete season.
+
+.. figure:: patches/renders/caleb.png
+   :width: 125
+   :alt: Calebs Service Bars
+
+   Caleb's Service Bars. Four Years on the team, one as captain.
+   
 
 .. |oneYear| image:: patches/renders/oneYear.png
    :width: 125
