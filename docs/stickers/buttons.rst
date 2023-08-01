@@ -12,9 +12,9 @@ Buttons
 
 .. figure:: ../../buttons/misc/caleb_button.jpg
    :width: 80%
-   :alt: 2017 button in alternative color and design, made by Caleb from 2018 - 2019
+   :alt: 2017 button in alternative color and design
 
-   2017 button in alternative color and design, made by Caleb from 2018 - 2019
+   2017 button in alternative color and design, printed from 2018 - 2019
 
 
 Vintage Buttons (2006-2014)
