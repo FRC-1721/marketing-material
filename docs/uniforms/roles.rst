@@ -4,9 +4,9 @@ Team Roles
 Senior Leadership (E8)
 ----------------------
 
-.. figure:: patches/renders/captain.png
-   :width: 125
-   :alt: Team Captain's livery
+.. chevron::
+   :chevrons: ["red", "red", "gold", "red", "red"]
+   :patches: [["Captain", "gold"]]
 
    The role of Team Captain is the most powerful single position
    on the team. They direct everything from robot construction to
@@ -14,15 +14,15 @@ Senior Leadership (E8)
    The team Captain participates in board meetings, and has the near ultimate
    say with team decisions.
 
-.. figure:: patches/renders/president.png
-   :width: 125
-   :alt: Board President's livery
+.. chevron::
+   :chevrons: ["none", "none", "white", "none", "none"]
+   :patches: [["President", "purple"]]
 
    The President presides over the board and is the go-to contact for the robotics team when speaking administratively.
 
-.. figure:: patches/renders/lead_mentor.png
-   :width: 125
-   :alt: Lead Mentor's livery
+.. chevron::
+   :chevrons: ["none", "none", "white", "none", "none"]
+   :patches: [["LeadMentor", "red"]]
 
    The lead mentor...
 
@@ -30,18 +30,18 @@ Senior Leadership (E8)
 Assistant Senior Leadership (E7)
 --------------------------------
 
-.. figure:: patches/renders/asst_captain.png
-   :width: 125
-   :alt: Team Assistant-Captain's livery
+.. chevron::
+   :chevrons: ["red", "red", ["gold", "red"], "red", "red"]
+   :patches: [["CoCaptain", "gold"]]
 
    The Assistant-Captain is the second highest position on the team, it is not 
    necessarily filled every year. The Assistant Captain directly leads the team
    along with the Captain, and serves in their absence with all the command associated.
    The Assistant captain is always a student.
 
-.. figure:: patches/renders/vicePresident.png
-   :width: 125
-   :alt: Vice President's livery
+.. chevron::
+   :chevrons: ["none", "none", "white", "none", "none"]
+   :patches: [["VicePresident", "purple"]]
 
    The Vice President serves in the Board President's absence. 
 
@@ -49,17 +49,17 @@ Assistant Senior Leadership (E7)
 Specialist Leadership (E6)
 --------------------------
 
-.. figure:: patches/renders/safety_captain.png
-   :width: 125
-   :alt: Safety Captain's livery
+.. chevron::
+   :chevrons: ["none", "none", "red", "red", "red"]
+   :patches: [["Safety", "gold"]]
 
    The Safety Captain technically wields exclusive ability to veto any decision even by the
    captain on argument of Safety. They are always a student, they are expected to ensure
    safety in all aspects, not just in build season or on the field.
 
-.. figure:: patches/renders/quartermaster.png
-   :width: 125
-   :alt: Quartermaster's livery
+.. chevron::
+   :chevrons: ["none", "none", "red", "red", "red"]
+   :patches: [["Quartermaster", "gold"]]
 
    The Quartermaster is responsible for the organization, categorization, and tidiness of the Team's
    resources. They are often a student on the team with exceptional organization abilities. This role
@@ -69,15 +69,15 @@ Specialist Leadership (E6)
 Assistant Specialist Leadership (E5)
 ------------------------------------
 
-.. figure:: patches/renders/assistantSafety_captain.png
-   :width: 125
-   :alt: Assistant Safety Captain's livery
+.. chevron::
+   :chevrons: ["none", "none", "red", "red", ["red", "none"]]
+   :patches: [["Safety", "gold"]]
 
    The Assistant Safety Captain holds office in the Safety Captain's absence.
 
-.. figure:: patches/renders/quartermaster_asst.png
-   :width: 125
-   :alt: Assistant Quartermaster's livery
+.. chevron::
+   :chevrons: ["none", "none", "red", "red", ["red", "none"]]
+   :patches: [["Quartermaster", "red"]]
 
    The Assistant Quartermaster holds office in the Quartermaster's absence.
 
@@ -132,26 +132,25 @@ Leader (E4)
    market days) and other 'outreach events'. They are the glue that ties the financial, online and resource (Business, 
    Media and Quartermaster) together.
 
-.. figure:: patches/renders/media_lead.png
-   :width: 125
-   :alt: Lead of Media's livery
+.. chevron::
+   :chevrons: ["none", "none", "red", "red", "none"]
+   :patches: [["Media", "red"]]
 
    The Lead of Media maintains the media presence of the team, they maintain our active social media services as well
    as moderate team online spaces such as the website, discord, the email chain, etc. They work heavily with the Lead 
    of outreach. They are also responsible for managing the production and distribution of the Reveal Video and other
    video media.
 
-.. figure:: patches/renders/scouting_lead.png
-   :width: 125
-   :alt: Lead of Scouting's livery
+.. chevron::
+   :chevrons: ["none", "none", "red", "red", "none"]
+   :patches: [["Scouting", "red"]]
 
    Scouting is an activity common in first where team members record and judge the performance of other teams
    in an effort to find and secure strong teams for possible alliance section, the Lead of Scouting co-ordinates
    these actions among their ad-hoc team of Scouters.
 
-.. figure:: patches/renders/student_drivecoach.png
-   :width: 125
-   :alt: Drivecoach's livery
+.. chevron::
+   :chevrons: ["none", "red", "red", "none", "none"]
 
    The Drivecoach is the glue that binds the Driver and Operator together, their patch is a single upwards facing chevron added
    to their livery. This role is often an Alumni of the team, but not always. They cannot interact with the robot or field, only coach.
@@ -162,9 +161,9 @@ Leader (E4)
 Assistant Leader (E3)
 ---------------------
 
-.. figure:: patches/renders/mechanical_asst.png
-   :width: 125
-   :alt: Assistant Lead of Mechanical's livery
+.. chevron::
+   :chevrons: ["none", "none", "red", ["red", "none"], "none"]
+   :patches: [["Mechanical", "red"]]
 
    The Assistant Lead of Mechanical is assistant to the Lead of Mechanical, they serve in
    their absence and are another bridge between mechanical team members, the other leads, and the
@@ -172,9 +171,9 @@ Assistant Leader (E3)
 
 .. note:: This role is often promoted by the Lead of Mechanical
 
-.. figure:: patches/renders/cad_asst.png
-   :width: 125
-   :alt: Assistant Lead of CAD's livery
+.. chevron::
+   :chevrons: ["none", "none", "red", ["red", "none"], "none"]
+   :patches: [["CAD", "red"]]
 
    The Assistant Lead of CAD is assistant to the Lead of CAD, they serve in
    their absence and are another bridge between CAD team members, the other leads, and the
@@ -182,9 +181,9 @@ Assistant Leader (E3)
 
 .. note:: This role is often promoted by the Lead of CAD
 
-.. figure:: patches/renders/software_asst.png
-   :width: 125
-   :alt: Assistant Lead of Software's livery
+.. chevron::
+   :chevrons: ["none", "none", "red", ["red", "none"], "none"]
+   :patches: [["Software", "red"]]
 
    The Assistant Lead of Software is assistant to the Lead of Software, they serve in
    their absence and are another bridge between Software team members, the other leads, and the
@@ -193,57 +192,56 @@ Assistant Leader (E3)
 .. note:: This role is often promoted by the Lead of Software
 
 
-Specalist (E2)
---------------
+Specialist (E2)
+---------------
 
-.. figure:: patches/renders/pitcrew_member.png
-   :width: 125
-   :alt: Pitcrew Member's livery
+.. chevron::
+   :chevrons: ["none", "none", "red", "none", "none"]
 
    Pitcrew members are selected by the pitcrew chief, they bear at least this single red bar and during competition 
    are expected to be in the pits carrying out repairs, upgrades and work.
 
-.. figure:: patches/renders/driver.png
-   :width: 125
-   :alt: Driver's livery
+.. chevron::
+   :chevrons: ["none", "none", "red", "none", "none"]
+   :patches: [["Driver", "red"]]
 
    The Driver drives the robot, this role changes year to year based on the game, but in general the driver can expect
    to handle the locomotion of the specific bot wether through swerve drive, meccannum drive, tank drive, etc. They are
    chosen by skill, normally with driver tryouts, any student (regardless of seniority) can have this position.
 
-.. figure:: patches/renders/operator.png
-   :width: 125
-   :alt: Operator's livery
+.. chevron::
+   :chevrons: ["none", "none", "red", "none", "none"]
+   :patches: [["Operator", "red"]]
 
    The Operator operates the robot, this role changes year to year based on the game, but in general the operator can expect
    to handle the operation of the specific bot wether through moving arms, intakes, shooters, climbers etc. They are chosen
    based on skill, normally with operator tryouts, any student (regardless of seniority) can have this position.
 
-.. figure:: patches/renders/humanplayer.png
-   :width: 125
-   :alt: Human Player's livery
+.. chevron::
+   :chevrons: ["none", "none", "red", "none", "none"]
+   :patches: [["HumanPlayer", "red"]]
 
    The Human Player is a very volatile position, it changes wildly from year to year, in 2017 the human player was *inside* the
    field playing area. This is generally an athletic and/or wildly enthusiastic team member!
 
-.. figure:: patches/renders/technician.png
-   :width: 125
-   :alt: Human Player's livery
+.. chevron::
+   :chevrons: ["none", "none", "red", "none", "none"]
+   :patches: [["Technician", "red"]]
 
    The Technician is a student with exceptional 'all-round skills', they fill the final role on the drive team and assist with
    all of the technical aspects of the robot, from mechanical, to software, to electrical, they should have a good knowledge of 
    all the major subsystems and how to service them quickly before and after the match. They should be briefed individually by 
    each of the major technical leads.
 
-.. figure:: patches/renders/secretary.png
-   :width: 125
-   :alt: Secretary's livery
+.. chevron::
+   :chevrons: ["none", "none", "white", "none", "none"]
+   :patches: [["Treasurer", "purple"]]
 
    The board secretary keeps notes and logs of board meetings and assists with running the board behind the scenes.
 
-.. figure:: patches/renders/treasurer.png
-   :width: 125
-   :alt: Treasurer's livery
+.. chevron::
+   :chevrons: ["none", "none", "white", "none", "none"]
+   :patches: [["Treasurer", "purple"]]
 
    The treasurer manages the legal and financial side of the team along with the Outreach Lead.
 
@@ -251,9 +249,8 @@ Specalist (E2)
 (E1)
 ----
 
-.. figure:: patches/renders/mentor.png
-   :width: 125
-   :alt: Mentor's livery
+.. chevron::
+   :chevrons: ["none", "none", "white", "none", "none"]
 
    Each mentor receives one white chevron. The white signifies their hands off, white gloves role in the team.
 
@@ -263,9 +260,9 @@ Retired Positions
 
 .. Warning:: These positions are no longer in service, and cannot be awarded or promoted to.
 
-.. figure:: patches/renders/pitcrew.png
-   :width: 125
-   :alt: Pitcrew's livery
+.. chevron::
+   :chevrons: ["none", "none", "red", ["red", "none"], "none"]
+   :patches: [["Pitcrew", "red"]]
 
    The Pitcrew Chief bears this livery, the Pitcrew Chief is often the Lead of Mechanical but not always, they
    are responsible for all things in the pitcrew including selecting pitcrew members and maintaining an efficient
@@ -276,9 +273,9 @@ Retired Positions
              it's retirement. So while the official pit crew chief insignia is 2 1/2, that insignia was never worn. While 
              the 2022 (2 Chevron variant) worn by Micheal is the only physical example.
 
-.. figure:: patches/renders/business_lead.png
-   :width: 125
-   :alt: Lead of Business's livery
+.. chevron::
+   :chevrons: ["none", "none", "red", "red", "none"]
+   :patches: [["Business", "red"]]
 
    The Business Lead is responsible for all things financial, especially securing grants and funding, organizing
    sponsorship packets, maintaining sponsor relationships, and assisting in ordering and spending.

@@ -96,12 +96,13 @@ class chevronbuilder(SphinxDirective):
     option_spec = {
         "chevrons": directives.unchanged,
         "patches": directives.unchanged,
+        "tag": directives.unchanged,  # used for inline linking and stuff
     }
 
     def run(self):
         # Parse our inputs
-        _chevrons = json.loads(self.options.get("chevrons", ""))  # Get raw
-        _patches = json.loads(self.options.get("patches", ""))
+        _chevrons = json.loads(self.options.get("chevrons", "[]"))  # Get raw
+        _patches = json.loads(self.options.get("patches", "[]"))
 
         # Generate some randoms
         randomName = "".join(
@@ -152,6 +153,10 @@ class chevronbuilder(SphinxDirective):
                 if len(_patches) == 0:
                     # No subteam patches
                     logging.info("No patches to apply")
+
+                    # Special exception for when theres also a top patch (because we need a little space)
+                    if _chevrons[1] != "none":
+                        cursor = cursor + 120
                 if len(_patches) == 1:
                     # One subteam patch
                     offset = (int(255 / 2), cursor)
