@@ -44,69 +44,126 @@ Tenure bars display different meaning based on color and placement.
 Examples
 ========
 
-.. figure:: patches/renders/tenure_captain.png
-   :width: 125
-   :alt: Picture of a tenure captain's bars
+.. servicebar::
+   :name: captainBars
+   :bars: ["white", "gold", ["gold", "red"], "red", "red"]
 
    Team Captain's tenure bars, four years on the team, 
    third year as Assistant Captain, 
    final year as Captain. 
    One or two years as a mentor.
 
-.. figure:: patches/renders/rookie.png
-   :width: 125
-   :alt: Picture of a rookie's bar
+.. servicebar::
+   :name: rookieBars
+   :bars: ["red"]
 
    A rookie member receives one bar after completing one complete season.
 
-.. figure:: patches/renders/caleb.png
-   :width: 125
-   :alt: Calebs Service Bars
+.. servicebar::
+   :name: calebBars
+   :bars: ["white", "white", "white", "red", ["gold", "red"], "red"]
 
    Caleb's Service Bars. Three years on the team, one as Assistant Captain. 
    Six years as a mentor.
    
 
-.. |oneYear| image:: patches/renders/oneYear.png
+.. Yeah ik this is a mess, maybe redo it sometime..
+
+.. servicebar::
+   :draw: no
+   :name: oneYear
+   :bars: ["red"]
+
+.. |oneYear| image:: ../_build/patches/oneYear-bar.png
    :width: 125
    :alt: tenure one year
 
-.. |twoYears| image:: patches/renders/twoYears.png
+.. servicebar::
+   :draw: no
+   :name: twoYears
+   :bars: ["red", "red"]
+
+.. |twoYears| image:: ../_build/patches/twoYears-bar.png
    :width: 125
    :alt: tenure two years
 
-.. |threeYears| image:: patches/renders/threeYears.png
+.. servicebar::
+   :draw: no
+   :name: threeYears
+   :bars: ["red", "red", "red"]
+
+.. |threeYears| image:: ../_build/patches/threeYears-bar.png
    :width: 125
    :alt: tenure three years
 
-.. |oneYearAlum| image:: patches/renders/oneYearAlum.png
+.. servicebar::
+   :draw: no
+   :name: oneYearAlum
+   :bars: ["white"]
+
+.. |oneYearAlum| image:: ../_build/patches/oneYearAlum-bar.png
    :width: 125
    :alt: alumni one year
 
-.. |threeYearsAlum| image:: patches/renders/threeYearsAlum.png
+.. servicebar::
+   :draw: no
+   :name: threeYearsAlum
+   :bars: ["white", "white"]
+
+.. |threeYearsAlum| image:: ../_build/patches/threeYearsAlum-bar.png
    :width: 125
    :alt: alumni one year
 
-.. |sixYearsAlum| image:: patches/renders/sixYearsAlum.png
+.. servicebar::
+   :draw: no
+   :name: sixYearsAlum
+   :bars: ["white", "white", "white"]
+
+.. |sixYearsAlum| image:: ../_build/patches/sixYearsAlum-bar.png
    :width: 125
    :alt: alumni one year
 
-.. |goldService| image:: patches/renders/goldService.png
+.. servicebar::
+   :draw: no
+   :name: goldService
+   :bars: ["gold"]
+
+.. |goldService| image:: ../_build/patches/goldService-bar.png
    :width: 125
    :alt: alumni one year
 
-.. |goldAsstService| image:: patches/renders/goldAsstService.png
+.. servicebar::
+   :draw: no
+   :name: goldAsstService
+   :bars: [["gold", "red"]]
+
+.. |goldAsstService| image:: ../_build/patches/goldAsstService-bar.png
    :width: 125
    :alt: alumni one year
 
-.. |leadMentorService| image:: patches/renders/leadMentorService.png
+.. servicebar::
+   :draw: no
+   :name: leadMentorService
+   :bars: [["red", "white"]]
+
+.. |leadMentorService| image:: ../_build/patches/leadMentorService-bar.png
    :width: 125
    :alt: alumni one year
 
-.. |presidentService| image:: patches/renders/presidentService.png
+.. servicebar::
+   :draw: no
+   :name: presidentService
+   :bars: ["purple"]
+
+.. |presidentService| image:: ../_build/patches/presidentService-bar.png
    :width: 125
    :alt: alumni one year
 
-.. |boardService| image:: patches/renders/boardService.png
+.. servicebar::
+   :draw: no
+   :name: boardService
+   :bars: [["purple", "white"]]
+
+.. |boardService| image:: ../_build/patches/boardService-bar.png
    :width: 125
    :alt: alumni one year
