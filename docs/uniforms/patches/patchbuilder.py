@@ -320,7 +320,7 @@ class chevronbuilder(SphinxDirective):
     :width: 125
     :alt: Auto Generated
     
-    {''.join(self.content)}
+    {' '.join(self.content)}
     """
         )
 

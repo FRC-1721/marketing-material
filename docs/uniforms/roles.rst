@@ -59,7 +59,7 @@ Specialist Leadership (E6)
 
 .. chevron::
    :chevrons: ["none", "none", "red", "red", "red"]
-   :patches: [["Quartermaster", "gold"]]
+   :patches: [["Quartermaster", "red"]]
 
    The Quartermaster is responsible for the organization, categorization, and tidiness of the Team's
    resources. They are often a student on the team with exceptional organization abilities. This role
@@ -198,7 +198,7 @@ Specialist (E2)
 .. chevron::
    :chevrons: ["none", "none", "red", "none", "none"]
 
-   Pitcrew members are selected by the pitcrew chief, they bear at least this single red bar and during competition 
+   Pitcrew members are selected by the captain [1]_, they bear at least this single red bar and during competition 
    are expected to be in the pits carrying out repairs, upgrades and work.
 
 .. chevron::
@@ -268,10 +268,10 @@ Retired Positions
    are responsible for all things in the pitcrew including selecting pitcrew members and maintaining an efficient
    working environment in the pits.
 
-   .. note:: The Pitcrew Cheif is no longer promoted to, in favor of leaving pit crew direction to the Lead of Mechanical
-             When it was utilized in 2022, it had two chevrons. When it was proposed in 2023 it had two and a half, before 
-             it's retirement. So while the official pit crew chief insignia is 2 1/2, that insignia was never worn. While 
-             the 2022 (2 Chevron variant) worn by Micheal is the only physical example.
+.. note:: The Pitcrew Cheif is no longer promoted to, in favor of leaving pit crew direction to the Lead of Mechanical
+            When it was utilized in 2022, it had two chevrons. When it was proposed in 2023 it had two and a half, before 
+            it's retirement. So while the official pit crew chief insignia is 2 1/2, that insignia was never worn. While 
+            the 2022 (2 Chevron variant) worn by Micheal is the only physical example.
 
 .. chevron::
    :chevrons: ["none", "none", "red", "red", "none"]
@@ -282,4 +282,7 @@ Retired Positions
    They frequently work alongside the Lead of Outreach but wield a similar position. This role is often staffed by
    the Captain but not always.
 
-   .. note:: The Business subteam is now part of the Outreach subteam as of 2023
+.. note:: The Business subteam is now part of the Outreach subteam as of 2023
+
+
+.. [1] Updated after Pitcrew Chief removed.
