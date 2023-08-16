@@ -93,9 +93,9 @@ Leader (E4)
    filled by the Lead of Software but not always, the subteam is also usually small but not always. 
    Like other Leads, their expert opinion is sought in times of discussion with the Captain.
 
-.. figure:: patches/renders/mechanical_lead.png
-   :width: 125
-   :alt: Lead of Mechanical's livery
+.. chevron::
+   :chevrons: ["none", "none", "red", "red", "none"]
+   :patches: [["Mechanical", "red"]]
 
    The Lead of Mechanical is a student on the team with exceptional mechanical skills and/or
    leadership skills. They provide active communication between the Captain about feasibility of
@@ -104,9 +104,9 @@ Leader (E4)
    In the offseason they direct mechanical training and pre-season projects
 
 
-.. figure:: patches/renders/cad_lead.png
-   :width: 125
-   :alt: Lead of CAD's livery
+.. chevron::
+   :chevrons: ["none", "none", "red", "red", "none"]
+   :patches: [["CAD", "red"]]
 
    The Lead of CAD is a student on the team with exceptional CAD skills and/or
    leadership skills. They provide active communication between the Captain and their
@@ -115,18 +115,18 @@ Leader (E4)
    the mechanical team. 
 
 
-.. figure:: patches/renders/software_lead.png
-   :width: 125
-   :alt: Lead of Software's livery
+.. chevron::
+   :chevrons: ["none", "none", "red", "red", "none"]
+   :patches: [["Software", "red"]]
 
    The Lead of Software is a student on the team with exceptional software skills and/or
    leadership skills. They provide active communication between the Captain and their own
    subteam of Software Students. They are responsible for all robot software as well as the 
    infrastructure used by Mechanical, CAD, Media and other teams as "IT Support".
 
-.. figure:: patches/renders/outreach.png
-   :width: 125
-   :alt: Lead of Outreach's livery
+.. chevron::
+   :chevrons: ["none", "none", "red", "red", "none"]
+   :patches: [["Outreach", "red"]]
 
    The Lead of Outreach maintains connections with outreach partners such as local FLL teams, local events (like
    market days) and other 'outreach events'. They are the glue that ties the financial, online and resource (Business, 
