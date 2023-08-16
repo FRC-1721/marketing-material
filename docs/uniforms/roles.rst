@@ -85,14 +85,13 @@ Assistant Specialist Leadership (E5)
 Leader (E4)
 -----------
 
-.. figure:: patches/renders/electrical_lead.png
-   :width: 125
-   :alt: Lead of Electrical's livery
+.. chevron::
+   :chevrons: ["none", "none", "red", "red", "none"]
+   :patches: [["Electrical", "red"]]
 
-   The Lead of Electrical is responsible for all things electrical on the robot, this role
-   is often filled by the Lead of Software but not always, the subteam is also usually small
-   but not always. Like other Leads, their expert opinion is sought in times of discussion 
-   with the Captian.
+   The Lead of Electrical is responsible for all things electrical on the robot, this role is often 
+   filled by the Lead of Software but not always, the subteam is also usually small but not always. 
+   Like other Leads, their expert opinion is sought in times of discussion with the Captain.
 
 .. figure:: patches/renders/mechanical_lead.png
    :width: 125

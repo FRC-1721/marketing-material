@@ -5,12 +5,7 @@ BUILDDIR      = _build
 
 # Refactored from minimal makefile
 
-all: patches latexpdf
-
-# Build custom patches
-patches:
-	mkdir -p uniforms/patches/renders
-	cd uniforms/patches && python patchbuilder.py
+all: latexpdf
 
 clean:
 	git clean -fdX 
@@ -18,5 +13,5 @@ clean:
 latexpdf: Makefile
 	@$(SPHINXBUILD) -M latexpdf "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-html: patches Makefile
+html: Makefile
 	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
