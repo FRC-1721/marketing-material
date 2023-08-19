@@ -33,7 +33,7 @@ For example, if you had the following two roles:
    :patches: [["Mechanical", "red"]]
 
 .. chevron::
-   :chevrons: ["none", "none", "red", ["red", "none"], "none"]
+   :chevrons: ["none", "none", "red",  "none", "none"]
    :patches: [["Driver", "red"]]
 
 Then your final patch would look like this
