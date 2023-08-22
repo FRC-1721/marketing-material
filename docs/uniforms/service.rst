@@ -37,7 +37,7 @@ Tenure bars display different meaning based on color and placement.
 +---------------------+----------------------------------+
 | |presidentService|  | Board President                  |
 +---------------------+----------------------------------+
-| |boardService|      | Vice President or Treasurer.     |
+| |boardService|      | Vice President                   |
 +---------------------+----------------------------------+
 
 
@@ -167,3 +167,9 @@ Examples
 .. |boardService| image:: ../_build/patches/boardService-bar.png
    :width: 125
    :alt: alumni one year
+
+Notes for Interns
+=================
+
+Tidal Force Interns (or apprentices) do not receive service bars while an intern. They only begin
+to receive service bars when they officially enter the team when coming of age.

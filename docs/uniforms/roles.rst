@@ -24,7 +24,9 @@ Senior Leadership (E8)
    :chevrons: ["none", "none", "white", "none", "none"]
    :patches: [["LeadMentor", "red"]]
 
-   The lead mentor...
+   The lead mentor is the most senior technical advisor to the captain and the president. They are also
+   leader of the team mentors, the lead mentor brings expertise and organization ability, while also upholding
+   Tidal Force's White Gloves policy.
 
 
 Assistant Senior Leadership (E7)
@@ -246,13 +248,44 @@ Specialist (E2)
    The treasurer manages the legal and financial side of the team along with the Outreach Lead.
 
 
-(E1)
-----
+Mentors (E1)
+------------
 
 .. chevron::
    :chevrons: ["none", "none", "white", "none", "none"]
 
    Each mentor receives one white chevron. The white signifies their hands off, white gloves role in the team.
+
+
+Apprentice (E1)
+---------------
+
+.. chevron::
+   :chevrons: ["none", "none", "none", "none", "none"]
+   :patches: [["Apprentice1y", "black"]]
+
+   Robotics Interns (or apprentices) cannot hold office, cannot earn service bars, and cannot officially become
+   official members, regardless, Tidal Force welcomes those who wish to join early, to participate and learn!
+
+Instead of service bars, interns earn patches around their apprentice patch, one per each year in spiraling fashion.
+
+.. chevron::
+   :chevrons: ["none", "none", "none", "none", "none"]
+   :patches: [["Apprentice2y", "black"]]
+
+   2 Years
+
+.. chevron::
+   :chevrons: ["none", "none", "none", "none", "none"]
+   :patches: [["Apprentice4y", "black"]]
+
+   4 Years
+
+.. chevron::
+   :chevrons: ["none", "none", "none", "none", "none"]
+   :patches: [["Apprentice5y", "black"]]
+
+   5 Years
 
 
 Retired Positions
