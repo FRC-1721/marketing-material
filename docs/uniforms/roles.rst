@@ -262,30 +262,10 @@ Apprentice (E1)
 
 .. chevron::
    :chevrons: ["none", "none", "none", "none", "none"]
-   :patches: [["Apprentice1y", "black"]]
+   :patches: [["Apprentice", "black"]]
 
    Robotics Interns (or apprentices) cannot hold office, cannot earn service bars, and cannot officially become
    official members, regardless, Tidal Force welcomes those who wish to join early, to participate and learn!
-
-Instead of service bars, interns earn patches around their apprentice patch, one per each year in spiraling fashion.
-
-.. chevron::
-   :chevrons: ["none", "none", "none", "none", "none"]
-   :patches: [["Apprentice2y", "black"]]
-
-   2 Years
-
-.. chevron::
-   :chevrons: ["none", "none", "none", "none", "none"]
-   :patches: [["Apprentice4y", "black"]]
-
-   4 Years
-
-.. chevron::
-   :chevrons: ["none", "none", "none", "none", "none"]
-   :patches: [["Apprentice5y", "black"]]
-
-   5 Years
 
 
 Retired Positions
