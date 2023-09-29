@@ -16,6 +16,15 @@ Submit a PR to have your logo added!
    Not the oldest but the most commonly used official logo, commissioned
    in 2016, we went to worlds with this logo and it stuck.
 
+.. figure:: ../../logos/2017/rendered/hoodie.png
+   :width: 60%
+   :alt: 2017 Hoodie Logo
+
+   This logo was reserved for merch/hoodies. Becoming particularly favorited on
+   hoodies and other more casual team merch. This logo was never used on official
+   team uniforms but counts perfectly fine as a uniform for demos, outreach and 
+   offseason events.
+
 2018
 ====
 

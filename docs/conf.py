@@ -1,5 +1,6 @@
+import os
+import sys
 import subprocess
-
 import sphinx_theme
 
 # Revision/git information
@@ -23,8 +24,14 @@ project = "Tidal Force Uniform and Style Guide"
 copyright = "2021-2022, To Be Announced"
 author = "Tidal Force, FRC Team 1721"
 
+# Ammend any custom extensions we have
+sys.path.append(os.path.abspath("uniforms/patches"))
+
 # General Config
-extensions = ["sphinx.ext.autosectionlabel"]
+extensions = [
+    "sphinx.ext.autosectionlabel",
+    "patchbuilder",
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates"]

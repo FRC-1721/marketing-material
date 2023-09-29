@@ -20,7 +20,7 @@ Vivve Fest
    :width: 80%
    :alt: Vivve Fest 6 Sticker
 
-   This is the first Vivve Fest sticker that was presented at a Vivve fest for the winter 2021 Vivve Fest, Designed by Connor_.
+   This is the first Vivve Fest sticker that was presented at a Vivve fest for the winter 2021 Vivve Fest, Designed by Conar_.
 
 
 2022
@@ -30,7 +30,7 @@ Vivve Fest
    :width: 80%
    :alt: Vivve Fest 7 Sticker
 
-   The Summer 2022 Vivve Fest sticker was designed by Connor_.
+   The Summer 2022 Vivve Fest sticker was designed by Conar_.
 
 .. figure:: ../../stickers/Vivve\ Fest\ Stickers/2022/winter/rendered/Vivve\ Fest\ 8.png
    :width: 80%

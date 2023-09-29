@@ -1,6 +1,13 @@
 Merchandise
 ===========
 
-.. image:: resources/therealmoeny.jpg
-   :height: 250
-   :alt: Where the real money from the movie is made
+Super Button
+------------
+
+The `Super Button`_ is a collection of small macro keypads made for fundraising!
+
+.. image:: resources/SuperButton.png
+   :width: 80%
+   :alt: Super Button x1
+
+.. _Super Button: https://github.com/FRC-1721/SuperButton

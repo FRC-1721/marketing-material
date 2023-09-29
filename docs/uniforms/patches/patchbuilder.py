@@ -1,12 +1,23 @@
 # FRC 1721
 # Script by Joe
 
-
+import os
 import yaml
+import json
+import string
+import random
 import logging
+
 import numpy as np
 
-from PIL import Image, UnidentifiedImageError
+from docutils.parsers.rst import directives
+
+from sphinx.parsers import RSTParser
+from docutils.frontend import OptionParser
+from sphinx.util.docutils import SphinxDirective
+from docutils.utils import new_document
+
+from PIL import Image, ImageDraw, UnidentifiedImageError
 
 
 def loadData():
@@ -37,7 +48,6 @@ def getPatch(patch, color, angle=0):
 
 
 def getColor(key):
-
     if key == "white":
         return (184, 184, 184)
     elif key == "red":
@@ -48,18 +58,20 @@ def getColor(key):
         return (255, 255, 50)
     elif key == "purple":
         return (75, 0, 130)
+    elif key == "black":
+        return (0, 0, 0)
     else:
         logging.warning(f"Could not find color {key}")
         return (0, 255, 0)
 
 
-def composite_half_patch(lImage, lData, offset):
+def composite_half_patch(maskPath, lImage, lData, offset):
     # So messy, composite two images!
 
     if lData[1] != "none":
         lImage.alpha_composite(
             getPatch(
-                "masks/Chevron Mask.png",
+                f"{maskPath}/Chevron Mask.png",
                 getColor(lData[1]),
                 180,
             ),
@@ -68,7 +80,7 @@ def composite_half_patch(lImage, lData, offset):
 
     lImage.alpha_composite(
         getPatch(
-            "masks/HalfChevron Mask.png",
+            f"{maskPath}/HalfChevron Mask.png",
             getColor(lData[0]),
             180,
         ),
@@ -78,13 +90,130 @@ def composite_half_patch(lImage, lData, offset):
     return lImage
 
 
-if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO)
+class tenurebuilder(SphinxDirective):
+    has_content = True
+    required_arguments = 0
+    optional_arguments = 3
+    final_argument_whitespace = True
+    option_spec = {
+        "bars": directives.unchanged,
+        "name": directives.unchanged,
+        "draw": directives.unchanged,
+    }
 
-    data = loadData()
+    def run(self):
+        bars = json.loads(self.options.get("bars", "[]"))
+        name = self.options.get("name", "")
 
-    for patchCollection in data.keys():
-        liveryData = data[patchCollection]
+        # The actual livery image!
+        liveryImage = Image.new("RGBA", (510, 1020), color=(0, 0, 0, 0))
+
+        # Paths
+        genpath = "_build/patches"
+        try:
+            os.mkdir(genpath)
+        except FileExistsError:
+            pass
+        maskPath = "uniforms/patches/masks"
+
+        # Where the next patch should be drawn
+        cursor = 0
+
+        logging.info(f"Processing tenure bar {name}")
+        for bar in bars:
+            # Check if this is a normal bar or a double bar
+            if type(bar) is not list:
+                liveryImage.alpha_composite(
+                    getPatch(
+                        f"{maskPath}/Tenure Bar.png",
+                        getColor(bar),
+                    ),
+                    (0, cursor),
+                )
+            else:
+                # If it is a list, its a double bar! Lets process it
+                liveryImage.alpha_composite(
+                    getPatch(
+                        f"{maskPath}/Tenure Bar.png",
+                        getColor(bar[1]),
+                    ),
+                    (0, cursor),
+                )
+                liveryImage.alpha_composite(
+                    getPatch(
+                        f"{maskPath}/Tenure Half Bar.png",
+                        getColor(bar[0]),
+                    ),
+                    (0, cursor),
+                )
+
+            cursor = cursor + 130
+
+        liveryImage = liveryImage.crop((0, 0, 510, cursor + 120))
+
+        liveryImage.save(f"{genpath}/{name}-bar.png")
+
+        if len(self.options.get("draw", "")) == 0:
+            return self.parse_rst(
+                f"""
+.. figure:: ../{genpath}/{name}-bar.png
+    :width: 125
+    :alt: Auto Generated
+        
+    {' '.join(self.content)}
+"""
+            )
+        else:
+            return self.parse_rst(
+                f"""
+.. |{name}| image:: ../{genpath}/{name}-bar.png
+    :width: 125
+    :alt: Auto Generated
+"""
+            )
+
+    # https://sammart.in/post/2021-05-10-external-data-sphinx-extension/
+    def parse_rst(self, text):
+        parser = RSTParser()
+        parser.set_application(self.env.app)
+        settings = OptionParser(
+            defaults=self.env.settings,
+            components=(RSTParser,),
+            read_config_files=True,
+        ).get_default_values()
+        document = new_document("<rst-doc>", settings=settings)
+        parser.parse(text, document)
+        return document.children
+
+
+class chevronbuilder(SphinxDirective):
+    has_content = True
+    required_arguments = 0
+    optional_arguments = 3
+    final_argument_whitespace = True
+    option_spec = {
+        "chevrons": directives.unchanged,
+        "patches": directives.unchanged,
+        "tag": directives.unchanged,  # used for inline linking and stuff
+    }
+
+    def run(self):
+        # Parse our inputs
+        _chevrons = json.loads(self.options.get("chevrons", "[]"))  # Get raw
+        _patches = json.loads(self.options.get("patches", "[]"))
+
+        # Generate some randoms
+        randomName = "".join(
+            random.choices(string.ascii_uppercase + string.digits, k=9)
+        )
+
+        # Paths
+        genpath = "_build/patches"
+        try:
+            os.mkdir(genpath)
+        except FileExistsError:
+            pass
+        maskPath = "uniforms/patches/masks"
 
         # Where the next patch should be drawn
         cursor = 0
@@ -93,24 +222,23 @@ if __name__ == "__main__":
         liveryImage = Image.new("RGBA", (510, 1020), color=(0, 0, 0, 0))
 
         # Place the top two chevrons if they exist
-        if liveryData["chevrons"][0] != "none":
-            logging.info(
-                f"Found super top chevron on {patchCollection}, {liveryData['chevrons'][0]}"
-            )
+        if _chevrons[0] != "none":
+            logging.info(f"Found super top chevron on {randomName}, {_chevrons[0]}")
             liveryImage.alpha_composite(
-                getPatch("masks/Chevron Mask.png", getColor(liveryData["chevrons"][0]))
+                getPatch(
+                    f"{maskPath}/Rocker Mask.png",
+                    getColor(_chevrons[0]),
+                )
             )
 
             cursor = cursor + 112
 
-        if liveryData["chevrons"][1] != "none":
-            logging.info(
-                f"Found top chevron on {patchCollection}, {liveryData['chevrons'][1]}"
-            )
+        if _chevrons[1] != "none":
+            logging.info(f"Found top chevron on {randomName}, {_chevrons[1]}")
             liveryImage.alpha_composite(
                 getPatch(
-                    "masks/Chevron Mask.png",
-                    getColor(liveryData["chevrons"][1]),
+                    f"{maskPath}/Rocker Mask.png",
+                    getColor(_chevrons[1]),
                 ),
                 (0, cursor),
             )
@@ -118,34 +246,38 @@ if __name__ == "__main__":
             cursor = cursor + 120
 
         try:
-            if len(liveryData["patches"]) == 0:
+            if len(_patches) == 0:
                 # No subteam patches
                 logging.info("No patches to apply")
-            if len(liveryData["patches"]) == 1:
+
+                # Special exception for when theres also a top patch (because we need a little space)
+                if _chevrons[1] != "none":
+                    cursor = cursor + 120
+            if len(_patches) == 1:
                 # One subteam patch
                 offset = (int(255 / 2), cursor)
 
-                patchname = liveryData["patches"][0][0]
+                patchname = _patches[0][0]
 
                 liveryImage.alpha_composite(
                     getPatch(
-                        f"masks/{patchname} Mask.png",
-                        getColor(liveryData["patches"][0][1]),
+                        f"{maskPath}/{patchname} Mask.png",
+                        getColor(_patches[0][1]),
                     ),
                     offset,
                 )
 
                 cursor = cursor + 150
-            if len(liveryData["patches"]) == 2:
+            if len(_patches) == 2:
                 # Two subteam patches
                 offset = (0, cursor + 90)
 
-                patchname = liveryData["patches"][0][0]
+                patchname = _patches[0][0]
 
                 liveryImage.alpha_composite(
                     getPatch(
-                        f"masks/{patchname} Mask.png",
-                        getColor(liveryData["patches"][0][1]),
+                        f"{maskPath}/{patchname} Mask.png",
+                        getColor(_patches[0][1]),
                     ),
                     offset,
                 )
@@ -153,12 +285,12 @@ if __name__ == "__main__":
                 # New offset, new patch
                 offset = (255, cursor + 90)
 
-                patchname = liveryData["patches"][1][0]
+                patchname = _patches[1][0]
 
                 liveryImage.alpha_composite(
                     getPatch(
-                        f"masks/{patchname} Mask.png",
-                        getColor(liveryData["patches"][1][1]),
+                        f"{maskPath}/{patchname} Mask.png",
+                        getColor(_patches[1][1]),
                     ),
                     offset,
                 )
@@ -168,27 +300,27 @@ if __name__ == "__main__":
             pass
 
             # Special exception here, if no patches at all, do this extra check...
-            if liveryData["chevrons"][1] != "none":
+            if _chevrons[1] != "none":
                 cursor = cursor + 120
 
         # Bottom 3 chevrons
-        if liveryData["chevrons"][2] != "none":
+        if _chevrons[2] != "none":
             offset = (0, cursor)
 
-            if isinstance(liveryData["chevrons"][2], list):
-                logging.info(f"Special half-chevron found on {patchCollection}")
+            if isinstance(_chevrons[2], list):
+                logging.info(f"Special half-chevron found on {randomName}")
 
                 liveryImage = composite_half_patch(
-                    liveryImage, liveryData["chevrons"][2], offset
+                    maskPath, liveryImage, _chevrons[2], offset
                 )
 
             else:
-                logging.info(f"Found first chevron on {patchCollection}")
+                logging.info(f"Found first chevron on {randomName}")
 
                 liveryImage.alpha_composite(
                     getPatch(
-                        "masks/Chevron Mask.png",
-                        getColor(liveryData["chevrons"][2]),
+                        f"{maskPath}/Chevron Mask.png",
+                        getColor(_chevrons[2]),
                         180,
                     ),
                     offset,
@@ -196,23 +328,22 @@ if __name__ == "__main__":
 
             cursor = cursor + 120
 
-        if liveryData["chevrons"][3] != "none":
-            logging.info(f"Found second chevron on {patchCollection}")
+        if _chevrons[3] != "none":
+            logging.info(f"Found second chevron on {randomName}")
             offset = (0, cursor)
 
-            if isinstance(liveryData["chevrons"][3], list):
-                logging.info(f"Special half-chevron found on {patchCollection}")
+            if isinstance(_chevrons[3], list):
+                logging.info(f"Special half-chevron found on {randomName}")
 
                 liveryImage = composite_half_patch(
-                    liveryImage, liveryData["chevrons"][3], offset
+                    maskPath, liveryImage, _chevrons[3], offset
                 )
 
             else:
-
                 liveryImage.alpha_composite(
                     getPatch(
-                        "masks/Chevron Mask.png",
-                        getColor(liveryData["chevrons"][3]),
+                        f"{maskPath}/Chevron Mask.png",
+                        getColor(_chevrons[3]),
                         180,
                     ),
                     offset,
@@ -220,24 +351,23 @@ if __name__ == "__main__":
 
             cursor = cursor + 120
 
-        if liveryData["chevrons"][4] != "none":
-            logging.info(f"Found third chevron on {patchCollection}")
+        if _chevrons[4] != "none":
+            logging.info(f"Found third chevron on {randomName}")
 
             offset = (0, cursor)
 
-            if isinstance(liveryData["chevrons"][4], list):
-                logging.info(f"Special half-chevron found on {patchCollection}")
+            if isinstance(_chevrons[4], list):
+                logging.info(f"Special half-chevron found on {randomName}")
 
                 liveryImage = composite_half_patch(
-                    liveryImage, liveryData["chevrons"][4], offset
+                    maskPath, liveryImage, _chevrons[4], offset
                 )
 
             else:
-
                 liveryImage.alpha_composite(
                     getPatch(
-                        "masks/Chevron Mask.png",
-                        getColor(liveryData["chevrons"][4]),
+                        f"{maskPath}/Chevron Mask.png",
+                        getColor(_chevrons[4]),
                         180,
                     ),
                     offset,
@@ -247,4 +377,38 @@ if __name__ == "__main__":
 
         liveryImage = liveryImage.crop((0, 0, 510, cursor + 120))
 
-        liveryImage.save(f"renders/{patchCollection}.png")
+        liveryImage.save(f"{genpath}/{randomName}-livery.png")
+
+        return self.parse_rst(
+            f"""
+.. figure:: ../{genpath}/{randomName}-livery.png
+    :width: 125
+    :alt: Auto Generated
+    
+    {' '.join(self.content)}
+    """
+        )
+
+    # https://sammart.in/post/2021-05-10-external-data-sphinx-extension/
+    def parse_rst(self, text):
+        parser = RSTParser()
+        parser.set_application(self.env.app)
+        settings = OptionParser(
+            defaults=self.env.settings,
+            components=(RSTParser,),
+            read_config_files=True,
+        ).get_default_values()
+        document = new_document("<rst-doc>", settings=settings)
+        parser.parse(text, document)
+        return document.children
+
+
+def setup(app):
+    app.add_directive("chevron", chevronbuilder)
+    app.add_directive("servicebar", tenurebuilder)
+
+    return {
+        "version": "0.1",
+        "parallel_read_safe": True,
+        "parallel_write_safe": True,
+    }
