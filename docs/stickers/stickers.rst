@@ -46,6 +46,12 @@ Vivve Fest
    :width: 80%
    :alt: Vivve Fest 9 Sticker
 
+   The Summer 2023 Vivve Fest sticker was designed by Conar_.
+
+.. figure:: ../../stickers/Vivve Fest Stickers/2023/winter/rendered/vivvefest_10_3_1.jpg
+   :width: 80%
+   :alt: Vivve Fest 10 Sticker
+
    The Winter 2023 Vivve Fest sticker was designed by Conar_.
 
 .. _Joe: https://github.com/KenwoodFox
