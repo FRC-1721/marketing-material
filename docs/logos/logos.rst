@@ -60,4 +60,14 @@ Submit a PR to have your logo added!
    Inspired by the cyberpunk nature of the 2023 game, this cyberpunk logo was used for the 
    2023 season. Designed by Connor_.
 
+
+2024
+====
+
+.. figure:: ../../logos/2024/rendered/2024_logo.png
+   :width: 60%
+   :alt: 2024 Logo
+
+   The 2024 season logo for Crescendo was designed by Veronica.
+
 .. _Connor: https://github.com/RealConar
